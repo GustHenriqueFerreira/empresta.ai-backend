@@ -1,0 +1,41 @@
+generator client {
+  provider = "prisma-client-js"
+  engineType = "client"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+model Profile {
+  id String @id @db.Uuid
+  nome String
+  papel String @default("colaborador")
+  criado_em DateTime @default(now()) @db.Timestamptz
+  emprestimos Emprestimo[]
+  @@map("profiles")
+}
+
+model Equipamento {
+  id String @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  nome String
+  categoria String
+  patrimonio String @default("TI-—")
+  situacao String @default("disponivel")
+  observacoes String?
+  criado_em DateTime @default(now()) @db.Timestamptz
+  emprestimos Emprestimo[]
+  @@map("equipamentos")
+}
+
+model Emprestimo {
+  id String @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  equipamento_id String @db.Uuid
+  usuario_id String @db.Uuid
+  retirado_em DateTime @default(now()) @db.Timestamptz
+  devolver_ate DateTime @db.Date
+  devolvido_em DateTime? @db.Timestamptz
+  equipamento Equipamento @relation(fields: [equipamento_id], references: [id])
+  usuario Profile @relation(fields: [usuario_id], references: [id], onDelete: Cascade)
+  @@map("emprestimos")
+}

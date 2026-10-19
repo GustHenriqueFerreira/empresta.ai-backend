@@ -1,8 +1,10 @@
-**/.env
-**/.env.*
-!**/.env.example
-
-# dependências e builds
+.env
+.env.*
+!.env.example
 node_modules/
 dist/
+.cache/
+coverage/
 *.log
+*.tsbuildinfo
+.DS_Store

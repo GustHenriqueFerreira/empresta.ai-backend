@@ -1,0 +1,42 @@
+{
+  "name": "emprestai-backend",
+  "private": true,
+  "version": "0.1.0",
+  "description": "API REST EMPREST.AI — NestJS, Prisma, Zod e Supabase Auth/RLS.",
+  "scripts": {
+    "db:schema": "node db/aplicar-schema.mjs",
+    "build": "tsc -p tsconfig.json",
+    "start:dev": "tsx watch src/main.ts",
+    "start": "node dist/main.js",
+    "prisma:generate": "prisma generate",
+    "test": "jest --runInBand",
+    "db:integracao": "node db/aplicar-integracao.mjs"
+  },
+  "dependencies": {
+    "@nestjs/common": "^11.2.7",
+    "@nestjs/core": "^11.2.7",
+    "@nestjs/platform-express": "^11.2.7",
+    "@prisma/adapter-pg": "^7.10.1",
+    "@prisma/client": "^7.10.1",
+    "@supabase/supabase-js": "^2.118.0",
+    "dotenv": "^18.0.8",
+    "pg": "^8.23.1",
+    "reflect-metadata": "^0.2.2",
+    "rxjs": "^7.8.2",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@electric-sql/pglite": "^0.4.3",
+    "@types/express": "^5.0.6",
+    "@types/jest": "^30.0.0",
+    "@types/node": "^22.20.5",
+    "@types/pg": "^8.23.1",
+    "@types/supertest": "^7.2.1",
+    "jest": "^30.5.2",
+    "prisma": "^7.10.1",
+    "supertest": "^7.3.1",
+    "ts-jest": "^29.4.15",
+    "tsx": "^4.23.15",
+    "typescript": "5.9"
+  }
+}
