@@ -1,0 +1,140 @@
+/* Tela de login — layout.md §5.1 */
+
+.login {
+  display: grid;
+  grid-template-columns: 1.05fr 0.95fr;
+  min-height: 820px;
+}
+
+/* coluna esquerda — gradiente + brilho radial do acento (520px, left -160px, top 120px) */
+.login-aside {
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  gap: 22.4px;
+  padding: 64px 56px;
+  background: linear-gradient(160deg, #1b1f2e, #161826 60%);
+}
+.login-aside::before {
+  content: '';
+  position: absolute;
+  left: -160px;
+  top: 120px;
+  width: 520px;
+  height: 520px;
+  border-radius: 50%;
+  background: radial-gradient(closest-side, rgba(47, 184, 172, 0.16), transparent);
+  pointer-events: none;
+}
+.login-aside > * {
+  position: relative;
+}
+
+.login-hero {
+  margin-top: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 16.8px;
+}
+.login-title {
+  margin: 0;
+  font-size: 44px;
+  font-weight: 600;
+  line-height: 1.12;
+  letter-spacing: -0.015em;
+  text-wrap: pretty;
+}
+.login-lead {
+  font-size: 16px;
+  color: rgba(233, 233, 237, 0.6);
+  max-width: 46ch;
+}
+
+/* faixa de estatísticas acima de uma borda superior — layout.md §5.1 */
+.login-stats {
+  margin-top: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 22.4px;
+  padding-top: 22.4px;
+  border-top: 1px solid var(--color-divider);
+}
+.stat {
+  display: flex;
+  flex-direction: column;
+  gap: 2.8px;
+}
+.stat-value {
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 1.12;
+  letter-spacing: -0.015em;
+}
+.stat-label {
+  font-size: 12.5px;
+  color: rgba(233, 233, 237, 0.45);
+}
+
+.login-foot {
+  margin: 0;
+  font-size: 12px;
+  color: rgba(233, 233, 237, 0.4);
+}
+
+/* coluna direita — coluna de 340px centralizada verticalmente */
+.login-panel {
+  display: grid;
+  place-items: center;
+  padding: 64px 56px;
+}
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16.8px;
+  width: 340px;
+  max-width: 100%;
+}
+.login-head {
+  display: flex;
+  flex-direction: column;
+  gap: 5.6px;
+}
+.login-heading {
+  margin: 0;
+  font-size: 26px;
+  font-weight: 600;
+  line-height: 1.12;
+  letter-spacing: -0.015em;
+}
+.login-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 8.4px;
+}
+.login-btn {
+  height: 40px;
+}
+.login-error {
+  margin: 0;
+  font-size: 12.5px;
+  color: #e88b8b;
+}
+.login-note {
+  margin: 0;
+  font-size: 12.5px;
+  color: rgba(233, 233, 237, 0.45);
+}
+
+/* telas estreitas — empilha as colunas */
+@media (max-width: 960px) {
+  .login {
+    grid-template-columns: 1fr;
+  }
+  .login-aside {
+    padding: 48px 32px;
+  }
+  .login-panel {
+    padding: 48px 32px;
+  }
+}

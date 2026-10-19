@@ -1,0 +1,12 @@
+{
+  "name": "emprestai-backend",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Backend EMPREST.AI — provisionamento do banco (schema inicial). Scaffold NestJS/Prisma ainda pendente (AGENTS.md §10).",
+  "scripts": {
+    "db:schema": "node db/aplicar-schema.mjs"
+  },
+  "dependencies": {
+    "pg": "^8.23.1"
+  }
+}

@@ -1,0 +1,8 @@
+**/.env
+**/.env.*
+!**/.env.example
+
+# dependências e builds
+node_modules/
+dist/
+*.log
