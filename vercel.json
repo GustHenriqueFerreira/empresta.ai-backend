@@ -1,0 +1,10 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": "nestjs",
+  "buildCommand": "npm run build",
+  "functions": {
+    "src/main.ts": {
+      "includeFiles": "certs/supabase-ca.crt"
+    }
+  }
+}

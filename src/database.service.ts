@@ -2,8 +2,7 @@ import { Injectable, OnModuleDestroy, ServiceUnavailableException, ConflictExcep
 import { Prisma, PrismaClient } from '@prisma/client'
 import { PrismaPg } from '@prisma/adapter-pg'
 import { Identidade, errosNegocio } from './contracts'
-import { readFileSync } from 'node:fs'
-import { resolve } from 'node:path'
+import { lerCertificado } from './startup'
 
 @Injectable()
 export class DatabaseService implements OnModuleDestroy {
@@ -11,7 +10,7 @@ export class DatabaseService implements OnModuleDestroy {
 
   constructor() {
     if (!process.env.DATABASE_URL) throw new Error('Configure DATABASE_URL no backend/.env.')
-    const ca = readFileSync(resolve(__dirname, '../certs/supabase-ca.crt'), 'utf8')
+    const ca = lerCertificado()
     const adapter = new PrismaPg({ connectionString: process.env.DATABASE_URL, ssl: { rejectUnauthorized: true, ca }, connectionTimeoutMillis: 10000, max: 5 })
     this.prisma = new PrismaClient({ adapter, log: [] })
   }

@@ -5,7 +5,7 @@
   "description": "API REST EMPREST.AI — NestJS, Prisma, Zod e Supabase Auth/RLS.",
   "scripts": {
     "db:schema": "node db/aplicar-schema.mjs",
-    "build": "tsc -p tsconfig.json",
+    "build": "npm run prisma:generate && tsc -p tsconfig.json",
     "start:dev": "tsx watch src/main.ts",
     "start": "node dist/main.js",
     "prisma:generate": "prisma generate",
