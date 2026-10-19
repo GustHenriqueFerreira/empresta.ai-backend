@@ -84,3 +84,16 @@ Fica fora:
   é lido pela raiz de execução. TLS continua verificando CA/hostname.
 - Não foi executado empacotamento local Vercel autenticado. O resultado público
   precisa ser verificado após o deploy; não confundir simulação local com sucesso remoto.
+## Diagnóstico autenticado e correção do empacotamento — 19/10/2026
+
+- Log de build confirmou `unused_function`: o padrão src/main.ts em functions
+  não corresponde à função index da integração nativa NestJS. Override removido;
+  framework/build permanecem na configuração Vercel.
+- CA passou a leitura estática join(process.cwd(), certs/supabase-ca.crt) para
+  permitir rastreamento pelo empacotador, sem parâmetro de diretório em runtime.
+- Projeto correto não tinha variáveis Production. Usuário autorizou explicitamente
+  enviar DATABASE_URL contendo senha ao projeto swvd/empresta-ai-backend-2xeh;
+  configuradas as quatro variáveis necessárias via stdin, sem expor valores.
+- 21 testes locais continuam passando. Nenhuma alteração de banco/ADR/PRD/TLS/RLS.
+- A leitura de arquivo rastreável substitui o override de includeFiles descrito
+  na primeira implementação; a evidência de bundle/runtime depende do novo deploy.

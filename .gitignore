@@ -4,7 +4,9 @@
 node_modules/
 dist/
 .cache/
+.vercel/
 coverage/
 *.log
 *.tsbuildinfo
 .DS_Store
+

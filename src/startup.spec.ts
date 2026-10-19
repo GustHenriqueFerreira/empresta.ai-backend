@@ -20,10 +20,11 @@ describe('Inicialização em hospedagem', () => {
   })
   it('explica certificado ausente em fixture isolada', () => {
     const pasta = mkdtempSync(join(tmpdir(), 'emprestai-ca-'))
+    const cwd = jest.spyOn(process, 'cwd').mockReturnValue(pasta)
     try {
-      expect(() => lerCertificado(pasta)).toThrow()
-      try { lerCertificado(pasta) } catch (e) { expect(diagnosticoSeguro(e)).toContain('CERTIFICADO_AUSENTE') }
-    } finally { rmdirSync(pasta) }
+      expect(() => lerCertificado()).toThrow()
+      try { lerCertificado() } catch (e) { expect(diagnosticoSeguro(e)).toContain('CERTIFICADO_AUSENTE') }
+    } finally { cwd.mockRestore(); rmdirSync(pasta) }
   })
   it('não imprime erro bruto de biblioteca ou stack pelo logger', () => {
     const log = jest.spyOn(console, 'error').mockImplementation(() => {})

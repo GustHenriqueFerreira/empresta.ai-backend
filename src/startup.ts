@@ -24,8 +24,9 @@ export function validarAmbiente(env: NodeJS.ProcessEnv = process.env) {
   }
 }
 
-export function lerCertificado(raiz = process.cwd()): string {
-  try { return readFileSync(join(raiz, 'certs', 'supabase-ca.crt'), 'utf8') }
+export function lerCertificado(): string {
+  // Caminho estático para Node File Trace incluir a CA no bundle NestJS.
+  try { return readFileSync(join(process.cwd(), 'certs', 'supabase-ca.crt'), 'utf8') }
   catch { throw new StartupError('CERTIFICADO_AUSENTE') }
 }
 

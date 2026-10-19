@@ -67,14 +67,16 @@ convencional NestJS; configure a origem CORS conforme o frontend antes do deploy
 ## Vercel
 
 - Importar este repositório na branch `master`, diretório raiz `./`, framework
-  NestJS e Node.js 22.x. `vercel.json` define o build e a inclusão da CA pública.
+  NestJS e Node.js 22.x. `vercel.json` define o framework e o build.
 - Build Command: `npm run build`. O script gera Prisma Client antes de compilar,
   sem migration ou escrita no banco. Um override anterior que também gera Prisma
   é redundante, mas pode ser substituído por esse comando.
 - Configurar `DATABASE_URL`, `SUPABASE_URL`, `SUPABASE_PUBLISHABLE_KEY` e
   `CORS_ORIGIN` (origem HTTPS do frontend, sem barra final) no ambiente Vercel.
 - O bootstrap segue o lifecycle NestJS da Vercel. A CA é lida a partir da raiz
-  de execução, sem depender do caminho do arquivo compilado.
+  de execução com caminho estático, para que Node File Trace a inclua na função.
+  Não configurar `functions.src/main.ts`: a integração nativa gera a função index
+  e esse padrão provoca o erro `unused_function`.
 - Logs de falha indicam configuração ausente/inválida ou certificado ausente,
   sem expor valores de ambiente, tokens ou mensagens brutas de drivers.
 - Após deploy, verificar `/api/health`. `Ready` no build não comprova inicialização
