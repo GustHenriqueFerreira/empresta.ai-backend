@@ -57,7 +57,7 @@ responsável pelo banco executa manualmente:
 update public.profiles set papel = 'operacoes' where id = '<UUID da conta escolhida>';
 ```
 
-Nenhum usuário/equipamento fictício é criado no remoto. A senha da conta Auth
+O provisionamento não cria usuários nem equipamentos fictícios. Em 19/10/2026, foram criados separadamente, com autorização, uma conta e quatro equipamentos de demonstração no ambiente hospedado. A senha da conta Auth
 é diferente da senha PostgreSQL. `.env` fica apenas local ou no host do backend.
 
 TLS valida CA e hostname usando o certificado público `certs/supabase-ca.crt`;
