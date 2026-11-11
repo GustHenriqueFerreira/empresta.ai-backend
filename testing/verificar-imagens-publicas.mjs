@@ -27,7 +27,7 @@ test('DI-CA-03: as doze fotos públicas abrem sem login e preservam PNG 800x600 
     resultados.push({ patrimonio: item.patrimonio, url: url.href, status: resposta.status,
       largura: 800, altura: 600, bytes: bytes.length, sha256 })
   }
-  await writeFile(new URL('../../docs/pratica/entrega-3-dados-prova/imagens-publicas-20261111.json', import.meta.url),
+  if (!process.argv.includes('--sem-arquivo')) await writeFile(new URL('../../docs/pratica/entrega-3-dados-prova/imagens-publicas-20261111.json', import.meta.url),
     JSON.stringify({ executor: 'principal', observadoEm: new Date().toISOString(),
       criterio: 'DI-CA-03', autenticacao: false, resultados }, null, 2) + '\n', { flag: 'wx' })
 })

@@ -1,0 +1,41 @@
+{
+  "fotosReais": 0,
+  "chamadasExternas": 0,
+  "cenarios": [
+    {
+      "cenario": "upload bloqueado",
+      "exitCode": 1,
+      "recusaEsperada": true
+    },
+    {
+      "cenario": "travessia bloqueada",
+      "exitCode": 1,
+      "recusaEsperada": true
+    },
+    {
+      "cenario": "chave ausente bloqueada",
+      "exitCode": 1,
+      "recusaEsperada": true
+    },
+    {
+      "cenario": "manifesto ausente bloqueado",
+      "exitCode": 1,
+      "recusaEsperada": true
+    },
+    {
+      "cenario": "lote com traversal bloqueado",
+      "exitCode": 1,
+      "recusaEsperada": true
+    },
+    {
+      "cenario": "credencial uppercase bloqueada",
+      "exitCode": 1,
+      "recusaEsperada": true
+    },
+    {
+      "cenario": "credencial lowercase bloqueada",
+      "exitCode": 1,
+      "recusaEsperada": true
+    }
+  ]
+}

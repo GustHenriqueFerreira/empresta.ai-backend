@@ -1,0 +1,12 @@
+{
+  "data": "2026-11-11",
+  "escopo": "lockfile preexistente, sem atualização automática",
+  "backend": {
+    "info": 0,
+    "low": 4,
+    "moderate": 17,
+    "high": 3,
+    "critical": 0,
+    "total": 24
+  }
+}

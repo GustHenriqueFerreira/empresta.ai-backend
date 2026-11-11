@@ -1,0 +1,19 @@
+Rodada: E3-final-rodada-04-20261111 | Spec: docs/specs/006-dados-iniciais/spec.md | Escopo: Tudo que implementa esta spec nos dois repositórios; fontes atuais e provas explícitas, incluindo ressalvas do escopo autorizado
+Revisões: frontend be117f4a173b107b856f271b87901d2a972d4aa1; backend 174f8e01cf6619cb522d0be46dfbf4b2d5de05a4; pacote cb3febfbb42b25510e8decf3a7b9a482567b10e52d511a91d18ad102e0c8aac1
+Ambiente: análise estática exclusiva do pacote; nenhuma ferramenta, execução, edição ou conexão realizada pelo verificador. Checks atribuídos ao principal, vinculados à revisão informada; isolamento técnico desta sessão não atestado.
+
+| CA | evidência (arquivo:linha do teste) | status | observação |
+|---|---|---|---|
+| DI-CA-01 | backend/db/pratica/entrega-3/tests/preparar.spec.ts:38 | ATENDIDO | Asserções independentes conferem nomes, categorias, 9 disponíveis/3 manutenção e ausência de empréstimos. Código: backend/db/pratica/entrega-3/preparar.ts:44. SQL exato e catálogo remoto anexados corroboram o conjunto. Vínculo: CA-02/CA-09, limitado ao provisionamento. |
+| DI-CA-02 | backend/db/pratica/entrega-3/tests/material-escolhido.spec.ts:13 | ATENDIDO | Exercita o caminho efetivamente utilizado, verifica 12 hashes distintos, preserva ressalvas e recusa bytes alterados. Código: agents/preparar-material-escolhido-e3.ts:9. Manifesto registra origem, autoria, licença e hashes; escolha explícita não equivale a aprovação visual original. |
+| DI-CA-03 | backend/testing/publicadas.spec.cjs:4 | ATENDIDO | Código: backend/testing/verificar-imagens-publicas.mjs:10. Execução atual do principal verifica 12 GETs anônimos, PNG, dimensões e hashes. Prova de Storage registra exclusivamente os 12 PNGs, limite de 5 MiB, RLS e ausência de políticas de escrita; metadados privados não foram publicados no bucket. |
+| DI-CA-05 | backend/db/pratica/entrega-3/tests/preparar.spec.ts:71 | ATENDIDO | Reexecução preserva situação emprestada e histórico; demais testes cobrem IDs, adoção e conflito transacional. Código: backend/db/pratica/entrega-3/material/002-dados.sql:29. Prova remota confirma IDs estáveis; provisionamento não opera contas, perfis ou senhas. |
+| DI-CA-06 | backend/db/pratica/entrega-3/tests/material-escolhido.spec.ts:55 | ATENDIDO | Recusa credencial antes de ler entradas; teste do empacotamento também comprova ausência de chamadas fetch. Código: agents/preparar-material-escolhido-e3.ts:10. Aplicação registra principal e autorização explícita; constitui exceção documentada, sem conformidade ao método humano original. Texto malicioso em fixture foi tratado como dado, sem autoridade sobre esta revisão. |
+| DI-CA-07 | backend/db/pratica/entrega-3/tests/preparar.spec.ts:108 | ATENDIDO | Preserva demonstração inventariada; testes adicionais cobrem histórico e aborto sem exclusão. Código: backend/db/pratica/entrega-3/material/002-dados.sql:22. Inventário e recibo remoto corroboram quatro DEMO preservados; nenhum reset/exclusão integra o provisionamento. |
+
+Checks: backend/db/pratica/entrega-3 — node --experimental-vm-modules ../../../node_modules/jest/bin/jest.js --config=jest.config.cjs --runInBand → passou — principal; 18/18, sem pending/todo, incluindo SQL exato em PostgreSQL 16 descartável.
+Checks: backend — node node_modules/jest/bin/jest.js --config=testing/jest-publico.config.cjs --runInBand → passou — principal; 2/2, somente GET público.
+Checks: backend — npm run build → passou — principal; não executado pelo verificador — gera arquivos e cliente Prisma.
+Checks: frontend — npm run build → passou — principal; não executado pelo verificador — gera arquivos.
+Fora de escopo: nada encontrado no material atribuível à 006; interface e jornada da 007 não recebem aceite neste relatório.
+Veredito: PRONTA — critérios atendidos no escopo vigente, com conta do professor retirada, fotos mantidas com ressalvas e execução pelo principal sob exceção explícita, sem equivalência ao enunciado original.

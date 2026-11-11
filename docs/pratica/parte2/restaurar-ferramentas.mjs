@@ -1,0 +1,7 @@
+// Restaura apenas documentos/ferramentas ausentes; não sobrescreve divergências.
+import fs from 'node:fs';import path from 'node:path';import {createHash} from 'node:crypto';
+const origem=path.join(import.meta.dirname,'workspace'),destino=path.resolve(process.argv[2]||path.join(import.meta.dirname,'../../../..'));
+if(!fs.existsSync(path.join(destino,'backend/package.json'))||!fs.existsSync(path.join(destino,'frontend/package.json')))throw Error('Clone os dois repos como backend/ e frontend/ na mesma pasta antes de restaurar.');
+const hash=b=>createHash('sha256').update(b).digest('hex');const m=JSON.parse(fs.readFileSync(path.join(import.meta.dirname,'manifesto.json'),'utf8'));
+for(const f of m.arquivos){if(f.caminho.startsWith('/')||f.caminho.split('/').includes('..')||/(^|\/)\.env($|\.)/.test(f.caminho))throw Error('Caminho inválido');if(hash(fs.readFileSync(path.join(origem,f.caminho)))!==f.sha256)throw Error('Exportação divergente: '+f.caminho);const alvo=path.join(destino,f.caminho);if(fs.existsSync(alvo)&&hash(fs.readFileSync(alvo))!==f.sha256)throw Error('Preservado arquivo existente divergente: '+f.caminho);}
+let criados=0;for(const f of m.arquivos){const alvo=path.join(destino,f.caminho);if(fs.existsSync(alvo))continue;fs.mkdirSync(path.dirname(alvo),{recursive:true});fs.writeFileSync(alvo,fs.readFileSync(path.join(origem,f.caminho)),{flag:'wx'});criados++;}console.log(criados+' documentos/ferramentas restaurados; nenhum app, ambiente ou arquivo divergente sobrescrito.');

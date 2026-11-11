@@ -1,0 +1,34 @@
+{
+ "executor":"agente principal via CUA/browser, não é execução Jest",
+ "data":"2026-11-11",
+ "ambiente":"App/SDK/AuthGuard/API/Prisma/PostgreSQL reais locais, Auth sintético, container próprio descartável, loopback",
+ "producao":false,
+ "provas":[
+  "EM-CA-10: imagem válida renderiza",
+  "EM-CA-10: onError apresenta imagem indisponível",
+  "EM-CA-01: App autentica fixture e carrega catálogo real da API local",
+  "EM-CA-01 EM-CA-07: nove disponíveis e três em manutenção",
+  "EM-CA-10: foco permanece no modal por Shift+Tab",
+  "EM-CA-03: sucesso atualiza catálogo e identifica dono",
+  "EM-CA-05 EM-CA-09: Meus empréstimos mostra equipamento e data correta",
+  "EM-CA-10: duplo clique criou somente um novo empréstimo",
+  "EM-CA-10: envio exibe estado ocupado com latência local",
+  "EM-CA-10: modal sinaliza aria-busy durante envio",
+  "EM-CA-10: carregamento observado durante login da nova fixture",
+  "EM-CA-04 EM-CA-10: três DEMO bloqueiam nove solicitações visíveis",
+  "EM-CA-06 EM-CA-10: DEMO atrasado gera banner e bloqueio real",
+  "EM-CA-10: catálogo vazio não inventa cartões",
+  "EM-CA-10: falha de GET mostra mensagem real e tentativa novamente",
+  "EM-CA-10: Tentar novamente recupera GET após erro sem POST automático",
+  "EM-CA-10: sessão recusada volta ao login e limpa dados anteriores",
+  "EM-CA-10: credencial sintética incorreta mostra recusa sem entrar",
+  "EM-CA-09: Pessoa B não recebe nem renderiza empréstimo DEMO da Pessoa A"
+ ],
+ "complementos":[
+  "SQL de leitura no container confirmou 2 linhas após um clique simples e um duplo, e 3 após terceiro envio",
+  "Com 3s de latência apenas na fixture, controles ficaram desabilitados e document.activeElement retornou role dialog/aria-labelledby dialog-title após correção",
+  "A primeira asserção tardia do carregamento falhou por o estado já ter terminado; nova entrada capturou Carregando no mesmo retorno da ação. Não é falha do produto nem prova de duração mínima",
+  "Cenário DEMO inicial do harness falhou por date+unknown na query de preparação; corrigido para integer, repetido e conferido no App/API/DB reais. Não contar aquela tentativa como verde"
+ ],
+ "limites":["Não prova Auth real ou sessão de produção","Não prova imagens já publicadas no Storage","Não usa conta do professor","Cards ficaram sem foto por origem de Auth local recusada pela projeção segura; sucesso/falha da imagem foram exercitados separadamente com o componente real no harness","Não comprova reconciliação de um POST com resposta perdida nem todos navegadores"]
+}

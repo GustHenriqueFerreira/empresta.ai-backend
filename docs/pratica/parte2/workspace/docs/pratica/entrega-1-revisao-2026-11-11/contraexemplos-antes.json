@@ -1,0 +1,89 @@
+{
+  "baselineValidoAprovou": true,
+  "casos": [
+    {
+      "caso": "E1-03: vereditos contraditórios",
+      "aprovou": true
+    },
+    {
+      "caso": "E1-03: ID só na observação",
+      "aprovou": true
+    },
+    {
+      "caso": "E1-01: prefixo de outro critério",
+      "aprovou": true
+    },
+    {
+      "caso": "E1-01: nome de teste com ID parcial",
+      "aprovou": true
+    },
+    {
+      "caso": "E1-03: critérios vazios na função",
+      "aprovou": true
+    },
+    {
+      "caso": "E1-04: nenhum evento de sessão",
+      "aprovou": true
+    },
+    {
+      "caso": "E1-04: ferramenta desconhecida",
+      "aprovou": true
+    },
+    {
+      "caso": "E1-04: sessão sem conclusão",
+      "aprovou": true
+    },
+    {
+      "caso": "E1-04: evento desconhecido",
+      "aprovou": true
+    },
+    {
+      "caso": "E1-05: rodada de outro relatório",
+      "aprovou": true
+    },
+    {
+      "caso": "E1-05: spec de outro relatório",
+      "aprovou": true
+    },
+    {
+      "caso": "E1-05: escopo de outro relatório",
+      "aprovou": true
+    },
+    {
+      "caso": "E1-03: Jest contradiz exitCode",
+      "aprovou": true
+    },
+    {
+      "caso": "E1-03: asserção falha omitida do resumo",
+      "aprovou": true
+    },
+    {
+      "caso": "E1-03: arquivo com hash inválido",
+      "aprovou": true
+    },
+    {
+      "caso": "E1-03: checks de outra revisão",
+      "aprovou": true
+    },
+    {
+      "caso": "E1-01: CA duplicado no relatório",
+      "aprovou": true
+    },
+    {
+      "caso": "E1-04: sessão falha",
+      "aprovou": false
+    },
+    {
+      "caso": "E1-03: processo falha",
+      "aprovou": false
+    },
+    {
+      "caso": "E1-03: rodapé aprova sem tabela",
+      "aprovou": false
+    },
+    {
+      "caso": "E1-05: mensagem diferente do relatório",
+      "aprovou": true
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "patrimonio": "TI-0001",
+  "fotoId": 4532322,
+  "origem": "https://pixabay.com/photos/workplace-office-business-table-4532322/",
+  "arquivo": ".cache/triagem/TI-0001-4532322.png",
+  "sha256": "abba069bd9549b366c9823f72e4c38933c7330fbcecc345bd9e060f8411ec4fd",
+  "avaliadoEm": "2026-11-11T05:16:03.384Z",
+  "avaliador": "agente principal",
+  "tipo": "triagem visual do agente; não revisão/aprovação humana",
+  "resultado": "RECUSADA_NA_TRIAGEM",
+  "motivos": [
+    "Computador de mesa, não notebook do patrimônio",
+    "Logo Apple legível",
+    "Telas com conteúdo e ícones legíveis"
+  ]
+}

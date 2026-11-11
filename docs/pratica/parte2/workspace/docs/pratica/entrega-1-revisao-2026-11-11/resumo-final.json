@@ -1,0 +1,75 @@
+{
+  "registradoEm": "2026-11-11T04:29:30.102Z",
+  "escopo": "Somente Entrega1 local; calibração CA07, sem produção.",
+  "antes": {
+    "casos": 21,
+    "aprovaramIndevidamente": 18,
+    "nivel": "função isolada; não são todos exploits ponta a ponta"
+  },
+  "depois": {
+    "casos": 24,
+    "aprovaramIndevidamente": 0
+  },
+  "rodadas": [
+    {
+      "rodada": "E1-05-revisao-erro-2026-11-11",
+      "sessao": null,
+      "testes": 3,
+      "revisao": "529410842a31e55286fa9d847b475811057e7f04e4fa2f5def0d1d356dd40e68",
+      "veredito": "Veredito: NÃO PRONTA — falha de execução.",
+      "eventos": []
+    },
+    {
+      "rodada": "E1-05-revisao-erro-2026-11-11-tentativa-2",
+      "sessao": "01a1c8d9-18fa-7a92-8143-c193fb144123",
+      "testes": 3,
+      "revisao": "a7f839f490e260bf3bf92f20354affd9a3cfeb6b0611fa9afc9be27312ecdae9",
+      "veredito": "Veredito: NÃO PRONTA — CA-07 não possui teste ativo que verifique ambas as bordas exigidas.",
+      "eventos": [
+        "thread.started",
+        "turn.started",
+        "agent_message",
+        "turn.completed"
+      ]
+    },
+    {
+      "rodada": "E1-06-revisao-restaurado-2026-11-11",
+      "sessao": "01a1c8da-579c-7000-a3d5-29c267d35bb8",
+      "testes": 4,
+      "revisao": "39f69347de29578a8d38445650178a57c38b530d47f4970671d08b3997b10907",
+      "veredito": "Veredito: PRONTA — CA-07 da calibração coberto integralmente por teste ativo e execução atual aprovada.",
+      "eventos": [
+        "thread.started",
+        "turn.started",
+        "agent_message",
+        "turn.completed"
+      ]
+    }
+  ],
+  "fontes": [
+    {
+      "caminho": "agents/rodar-verificador.mjs",
+      "sha256": "719b109abc2cb9a82d95c373c71f0c3781e43df98a4ee9ff31b8d1264fda3d74"
+    },
+    {
+      "caminho": "agents/validar-pacote.mjs",
+      "sha256": "82c2ecd843297e0927716466e1e5be24555d8ebcc5c8e8850b264c548bf0ef1d"
+    },
+    {
+      "caminho": "agents/validar-veredito.mjs",
+      "sha256": "0c8be5369c4406dfcb62a4ffc4a794a0df9eb606a6938fc7df27e13abbd56c22"
+    },
+    {
+      "caminho": "agents/verificador-spec-pratica.md",
+      "sha256": "dab814c043b2a41eff1781a5639dc1dc4b78368ddf8738574d69228fc89bfc51"
+    },
+    {
+      "caminho": "agents/conferir-revisao-e1.mjs",
+      "sha256": "b116e380ef4e70b207bf40ec3adeb2f0092669cf9bdad332fd084f28d4b6cd98"
+    },
+    {
+      "caminho": "agents/conferir-executor-e1.mjs",
+      "sha256": "548696ffe6a6c6211daa72354a994aa75bff7c111dee87cfc1da432f509316d5"
+    }
+  ]
+}

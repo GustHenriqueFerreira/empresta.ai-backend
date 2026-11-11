@@ -1,0 +1,101 @@
+{
+  "data": "2026-11-11",
+  "executor": "agente principal",
+  "escopo": "preparacao local, sem producao",
+  "checks": [
+    {
+      "comando": "node backend/node_modules/typescript/bin/tsc -p backend/db/pratica/entrega-3/tsconfig.json",
+      "codigo": 0
+    },
+    {
+      "comando": "node backend/node_modules/prisma/build/index.js validate --config=backend/db/pratica/entrega-3/prisma.config.ts",
+      "codigo": 0
+    },
+    {
+      "comando": "node --experimental-vm-modules ../../../node_modules/jest/bin/jest.js --config=./jest.config.cjs --runInBand --json --outputFile=./.cache/jest-final-local.json",
+      "cwd": "backend/db/pratica/entrega-3",
+      "codigo": 0,
+      "passaram": 13,
+      "falharam": 0,
+      "relatorioSha256": "c57a71c527601d4b43832c6da9c23d8d50377127cc791e4875f453001950701a"
+    },
+    {
+      "comando": "powershell -NoProfile -File agents/conferir-primeira-entrega.ps1",
+      "codigo": 0,
+      "originaisIdenticos": 104
+    },
+    {
+      "comando": "node backend/node_modules/tsx/dist/cli.mjs backend/db/pratica/entrega-3/preparar.ts principal",
+      "codigo": 1,
+      "esperado": "recusa sem entrada aprovada real"
+    }
+  ],
+  "arquivos": [
+    {
+      "caminho": "backend/db/pratica/entrega-3/000-inventario.sql",
+      "sha256": "f5a765b5ce530c96461127cc8ed24ad54593e9a127ea9edd5fbf333d2489375e"
+    },
+    {
+      "caminho": "backend/db/pratica/entrega-3/001-imagens.sql",
+      "sha256": "3b92545f3112ac517c5478b9592177bded37c01ae746c3ec0fe175203a51d0d9"
+    },
+    {
+      "caminho": "backend/db/pratica/entrega-3/inventario.modelo.json",
+      "sha256": "e1704b776f38a7b1ec42131b24cdf17863db13eb71a9cb764e0145f03030f495"
+    },
+    {
+      "caminho": "backend/db/pratica/entrega-3/jest.config.cjs",
+      "sha256": "bff5f2354258d7dd01539ad26d7cdca7247d89c8d2fa0c2b1ddb7237c5eb5a87"
+    },
+    {
+      "caminho": "backend/db/pratica/entrega-3/preparar.ts",
+      "sha256": "400b9bb69839882c2b48466c41ca1883fa3548eb191c08f631c4f3ff3136ed0e"
+    },
+    {
+      "caminho": "backend/db/pratica/entrega-3/prisma.config.ts",
+      "sha256": "4aab66af60549d1d018d566e8ae2ceda44952a75d8534d3b457d5142ab6adc50"
+    },
+    {
+      "caminho": "backend/db/pratica/entrega-3/README.md",
+      "sha256": "a9ba4b7698f8ce5a6c1e670499d00942f8bb6422e47b15388616c6b3bc2ce7f2"
+    },
+    {
+      "caminho": "backend/db/pratica/entrega-3/schema-proposto.prisma",
+      "sha256": "ff725ed46617be79a0e809b8c88713f649f92706ce08111a718faa797344d37e"
+    },
+    {
+      "caminho": "backend/db/pratica/entrega-3/tsconfig.json",
+      "sha256": "727164c226298424423dda2ebc9cb28b84f951a1c43b0dcb721bdfd6892cd5d9"
+    },
+    {
+      "caminho": "backend/db/pratica/entrega-3/tests/preparar.spec.ts",
+      "sha256": "4d75d6a8c03bc0c400edba5f009a0423258cda893ecb1c2e4847944cb0f8806e"
+    },
+    {
+      "caminho": "docs/specs/006-dados-iniciais/spec.md",
+      "sha256": "19b7573f78c5b111341399d74aba86f087512ce748b1dccd63d7e4e838837818"
+    },
+    {
+      "caminho": "docs/specs/006-dados-iniciais/plan.md",
+      "sha256": "c982ecf3f711b269e95146b8a32365b79c3dd2dd25dc9dfce4e91cc7d21bb26c"
+    },
+    {
+      "caminho": "docs/specs/006-dados-iniciais/tasks.md",
+      "sha256": "24e3bc53f7bee3895409ab8424e882a2a43fc4bfa4f6c6e0ac98cde208582f6a"
+    }
+  ],
+  "limites": [
+    "Sem inventario remoto",
+    "Sem fotos reais aprovadas",
+    "Sem Auth/login/professor verificado",
+    "Sem Storage publico comprovado",
+    "Sem aplicacao humana/repeticao remota",
+    "Hash nao autentica executor"
+  ],
+  "rodada": "E3-local-revisao-02",
+  "correcoes": [
+    "Nomes/categorias conferidos contra dados independentes da spec",
+    "Erro especifico de credenciais antes de I/O, sem eco",
+    "Manifesto/revisoes/inventario preservados e vinculados por hashes dos bytes copiados"
+  ]
+}

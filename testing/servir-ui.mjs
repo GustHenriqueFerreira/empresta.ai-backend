@@ -26,7 +26,7 @@ const material=path.join(root,'backend/db/pratica/entrega-3/material')
 const itens=JSON.parse(fs.readFileSync(path.join(material,'plano.json'),'utf8')).equipamentos
 const usuarios=[['11111111-1111-4111-8111-111111111111','pessoa.a@example.invalid','Pessoa A'],['22222222-2222-4222-8222-222222222222','pessoa.b@example.invalid','Pessoa B']]
 const ambiente=await iniciarIsolado(),pool=ambiente.pool
-let erro=false,expirada=false,app,vite,parando=false
+let erro=false,expirada=false,perderResposta=false,atrasoMs=0,app,vite,parando=false
 const prisma=new PrismaClient({adapter:new PrismaPg(ambiente.config),log:[]})
 async function preparar(){
  await pool.query('truncate public.emprestimos,public.equipamentos_imagens,public.equipamentos,public.profiles,auth.users cascade')
@@ -56,10 +56,13 @@ const auth=http.createServer(async(req,res)=>{
  try{
   if(rota==='/__fixture/foto.png'){res.writeHead(200,{'Content-Type':'image/png'});return res.end(fs.readFileSync(path.join(material,itens[1].imagem.caminho)))}
   if(rota==='/__fixture/nao-existe.png')return json(404,{erro:'fixture'})
+  if(rota==='/__fixture/estado'&&req.method==='GET')return json(200,(await pool.query('select count(*)::int as total,count(*) filter(where devolvido_em is null)::int as abertos from public.emprestimos')).rows[0])
   if(rota.startsWith('/__fixture/')&&req.method==='POST'){
-   if(rota==='/__fixture/reset'){await preparar();erro=false;expirada=false}
+   if(rota==='/__fixture/reset'){await preparar();erro=false;expirada=false;perderResposta=false;atrasoMs=0}
    if(rota==='/__fixture/falhar')erro=true
-   if(rota==='/__fixture/normal'){erro=false;expirada=false}
+   if(rota==='/__fixture/normal'){erro=false;expirada=false;atrasoMs=0}
+   if(rota==='/__fixture/lento')atrasoMs=3000
+   if(rota==='/__fixture/resposta-perdida')perderResposta=true
    if(rota==='/__fixture/expirar')expirada=true
    if(rota==='/__fixture/vazio')await pool.query('delete from public.equipamentos_imagens')
    if(rota==='/__fixture/limite-demo'||rota==='/__fixture/atraso-demo'){
@@ -91,7 +94,17 @@ process.env.SUPABASE_URL=authUrl;process.env.SUPABASE_PUBLISHABLE_KEY='fixture-p
 const db={async comoUsuario(u,fn){try{return await prisma.$transaction(async tx=>{await tx.$executeRawUnsafe('SET LOCAL ROLE authenticated');await tx.$queryRaw`SELECT set_config('request.jwt.claims', ${JSON.stringify({sub:u.id,role:'authenticated'})},true)`;return fn(tx)})}catch(e){const texto=errosNegocio.find(t=>e.message?.includes(t));if(texto)throw new ConflictException(texto);if(e instanceof HttpException)throw e;throw new ServiceUnavailableException('Não foi possível acessar os dados. Tente novamente.')}}}
 class ModuloFixture{};Module({controllers:[HealthController,AppController],providers:[AppService,AuthGuard,{provide:DatabaseService,useValue:db}]})(ModuloFixture)
 app=await NestFactory.create(ModuloFixture,{logger:['error'],abortOnError:false});app.enableCors()
-app.use((req,res,next)=>erro&&req.method==='GET'&&req.path==='/api/equipamentos'?res.status(503).json({message:'Falha local de teste. Tente novamente.'}):next())
+app.use((req,res,next)=>{
+ if(erro&&req.method==='GET'&&req.path==='/api/equipamentos')return res.status(503).json({message:'Falha local de teste. Tente novamente.'})
+ if(perderResposta&&req.method==='POST'&&req.path==='/api/emprestimos'){
+  perderResposta=false
+  // O controller/Prisma concluem a gravação; a resposta nunca chega.
+  // Conexão aberta evita que um reset seja convertido em resposta vazia pelo proxy.
+  // O cliente real encerra no AbortSignal.timeout(20000), sem repetir POST.
+  res.end=()=>res
+ }
+ if(atrasoMs)setTimeout(next,atrasoMs);else next()
+})
 await app.listen(0,'127.0.0.1');const apiUrl=(await app.getUrl())+'/api'
 const s=net.createServer();await new Promise(r=>s.listen(0,'127.0.0.1',r));const porta=s.address().port;await new Promise(r=>s.close(r))
 vite=spawn(process.execPath,[path.join(root,'frontend/node_modules/vite/bin/vite.js'),'--host','127.0.0.1','--port',String(porta),'--strictPort'],{cwd:path.join(root,'frontend'),windowsHide:true,stdio:['ignore','pipe','pipe'],env:{...process.env,VITE_SUPABASE_URL:authUrl,VITE_SUPABASE_PUBLISHABLE_KEY:'fixture-publica-sem-validade-externa',VITE_API_URL:apiUrl}})

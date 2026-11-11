@@ -1,0 +1,49 @@
+{
+  "fonte": "Nova consulta READ ONLY do principal na UI Supabase, incluindo clock_timestamp() retornado pelo banco",
+  "projeto": "mvoswngmnsfxcecucrys",
+  "equipamentos": [
+    {
+      "id": "c68ffd1b-da24-43a8-8853-0c3b10225997",
+      "nome": "Notebook Dell Inspiron (demo)",
+      "situacao": "disponivel",
+      "categoria": "Notebook",
+      "patrimonio": "DEMO-001",
+      "emprestimos_totais": 0,
+      "emprestimos_abertos": 0
+    },
+    {
+      "id": "4ac257b8-1f69-4108-9bbd-cb68f1a21c54",
+      "nome": "Monitor LG 24 polegadas (demo)",
+      "situacao": "disponivel",
+      "categoria": "Monitor",
+      "patrimonio": "DEMO-002",
+      "emprestimos_totais": 0,
+      "emprestimos_abertos": 0
+    },
+    {
+      "id": "3aa3da00-ba5c-44a2-b0a8-ff3715f3bb6d",
+      "nome": "Cabo HDMI 2 metros (demo)",
+      "situacao": "disponivel",
+      "categoria": "Cabo",
+      "patrimonio": "DEMO-003",
+      "emprestimos_totais": 0,
+      "emprestimos_abertos": 0
+    },
+    {
+      "id": "05e0ed31-bab6-418d-b1ac-9b1a5415c958",
+      "nome": "Webcam Logitech (demo)",
+      "situacao": "manutencao",
+      "categoria": "Câmera",
+      "patrimonio": "DEMO-004",
+      "emprestimos_totais": 0,
+      "emprestimos_abertos": 0
+    }
+  ],
+  "duplicados": [],
+  "emprestimos_totais": 0,
+  "professor_contas": 0,
+  "tabela_imagens": false,
+  "buckets": [],
+  "limite": "Estado observado nesta consulta; revalidar no momento da aplicação. Não prova login ou URLs de imagens.",
+  "observadoEm": "2026-11-11T07:20:47.044303+00:00"
+}

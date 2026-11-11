@@ -1,11 +1,11 @@
 // Gate local: transmite só um pacote explícito, nunca lê .env e nunca executa
 // texto devolvido pelo revisor. Cada execução abre uma sessão nova sem ferramentas.
-import { readFileSync, writeFileSync, existsSync } from 'node:fs'
+import { readFileSync, writeFileSync, existsSync, openSync, closeSync } from 'node:fs'
 import { resolve, dirname } from 'node:path'
-import { createHash } from 'node:crypto'
 import { spawn } from 'node:child_process'
 import { fileURLToPath } from 'node:url'
 import { podeEncerrar } from './validar-veredito.mjs'
+import { validarPacote } from './validar-pacote.mjs'
 
 const args = process.argv.slice(2)
 if (args.length !== 4 || args[0] !== '--pacote' || args[2] !== '--codex') {
@@ -14,17 +14,13 @@ if (args.length !== 4 || args[0] !== '--pacote' || args[2] !== '--codex') {
 }
 const packetPath = resolve(args[1])
 const packet = JSON.parse(readFileSync(packetPath, 'utf8'))
-if (packet.versao !== 1 || !packet.rodada || !packet.spec || !packet.escopo || !Array.isArray(packet.arquivos) || !Array.isArray(packet.checks) || !packet.criterios?.length) throw new Error('Pacote incompleto.')
-for (const file of packet.arquivos) {
-  if (!file.caminho || typeof file.conteudo !== 'string' || !file.sha256 || /(^|[/\\])\.env(?:$|\.)|\.(pem|key)$/i.test(file.caminho)) throw new Error('Arquivo não permitido.')
-  if (createHash('sha256').update(file.conteudo).digest('hex') !== file.sha256) throw new Error('Hash de conteúdo divergente.')
-  if (/postgres(?:ql)?:\/\/[^\s:/]+:[^\s@]+@|sb_secret_[\w-]+|-----BEGIN (?:RSA |EC |OPENSSH )?PRIVATE KEY-----/.test(file.conteudo.replaceAll('postgresql://user:secret@example.invalid/postgres', 'FIXTURE'))) throw new Error('Possível segredo no pacote.')
-}
-const calculated = createHash('sha256').update(JSON.stringify(packet.arquivos.map(f => [f.caminho, f.sha256]))).digest('hex')
-if (packet.revisao !== calculated || packet.checks.some(c => c.revisao !== calculated || c.executor !== 'principal' || !c.comando || !Number.isInteger(c.exitCode))) throw new Error('Checks não vinculados à revisão atual.')
+validarPacote(packet, { contextoAtual: true })
 const output = resolve(dirname(packetPath), 'relatorio.md')
 const eventsPath = resolve(dirname(packetPath), 'sessao.jsonl')
 if (existsSync(output) || existsSync(eventsPath)) throw new Error('Rodada já tem evidência; use outra pasta, não sobrescreva.')
+// Reserva exclusiva antes de iniciar o modelo. Uma falha deixa a rodada reservada
+// para auditoria; não apagar lock ou reutilizar diretório automaticamente.
+closeSync(openSync(resolve(dirname(packetPath), 'execucao.lock'), 'wx'))
 const sourcePath = fileURLToPath(new URL('./verificador-spec-pratica.md', import.meta.url))
 const source = readFileSync(sourcePath, 'utf8').replace(/\r\n/g, '\n')
 const instructions = source.replace(/^---\n[\s\S]*?\n---\n/, '')
@@ -47,11 +43,13 @@ child.stdin.on('error', () => {})
 child.stdin.end(prompt)
 child.on('close', code => {
   clearTimeout(timer)
-  writeFileSync(eventsPath, stdout, 'utf8')
-  const events = stdout.split(/\r?\n/).filter(Boolean).flatMap(line => { try { return [JSON.parse(line)] } catch { return [] } })
+  writeFileSync(eventsPath, stdout, { encoding: 'utf8', flag: 'wx' })
+  const events = stdout.split(/\r?\n/).filter(line => line.trim()).map(line => {
+    try { return JSON.parse(line) } catch { return { type: 'invalid.jsonl' } }
+  })
   const messages = events.filter(e => e.type === 'item.completed' && e.item?.type === 'agent_message').map(e => e.item.text)
   const report = messages.at(-1) || 'SEM RELATÓRIO: sessão não concluiu.\nVeredito: NÃO PRONTA — falha de execução.'
-  writeFileSync(output, report + '\n', 'utf8')
+  writeFileSync(output, report + '\n', { encoding: 'utf8', flag: 'wx' })
   const ready = podeEncerrar(packet, events, report, code)
   console.log(report)
   console.log('\nGate local: ' + (ready ? 'APROVADO' : 'BLOQUEADO'))

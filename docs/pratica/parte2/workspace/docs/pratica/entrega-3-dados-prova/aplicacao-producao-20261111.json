@@ -1,0 +1,120 @@
+{
+  "executor": "agente principal sob autorização explícita de 11/11/2026",
+  "destino": "germinare3mil/main",
+  "material": {
+    "geradoEm": "2026-11-11T07:53:39.869Z",
+    "projeto": "mvoswngmnsfxcecucrys",
+    "fotos": 12,
+    "inventarioFonteSha256": "8074a5f4336602c7823cc560878009cc9d328289dd09c0346632738391bcaafd",
+    "sqlSha256": "30c484d8d2a30faf4389d217ebeac26c024e559049e80e30e78a6212067b2345",
+    "aplicacaoSqlSha256": "d13cd0effc8295a1970e5409cef6ff505c115d6b46ca6ff8679844d537de7387",
+    "aprovadoVisualmente": false,
+    "aplicado": false,
+    "publicado": false,
+    "contaProfessor": "dispensada pelo responsável"
+  },
+  "antesDaRepeticao": {
+    "ids": [
+      "05e0ed31-bab6-418d-b1ac-9b1a5415c958",
+      "1c004f3d-3e48-4c81-9d89-a49d112e74f6",
+      "3aa3da00-ba5c-44a2-b0a8-ff3715f3bb6d",
+      "40f824d0-c1e2-4a1d-b4f4-c756d8ab6998",
+      "481a216c-54c1-4e73-b41a-8fa5dec41872",
+      "4ac257b8-1f69-4108-9bbd-cb68f1a21c54",
+      "4f6300e2-54dc-43e0-b6a5-9b08908af4ce",
+      "6e18bc16-ef68-4604-a808-77ccbcec9276",
+      "8ae6fd07-8197-4825-b172-abda2b1a064f",
+      "90fcb87e-946b-4c8a-989f-0580576c056a",
+      "aada1cb2-653f-4676-ba8c-ce1c3b127cff",
+      "bd957bbf-07c1-49c7-8047-47b62f8ff4da",
+      "c61fa9b6-f756-4478-8ede-84c4ce9c347e",
+      "c68ffd1b-da24-43a8-8853-0c3b10225997",
+      "e91e239e-bd4e-4c51-9e35-398634767893",
+      "f72264ff-1efe-4391-88c5-54a93d41d7b9"
+    ],
+    "demos": [
+      {
+        "id": "c68ffd1b-da24-43a8-8853-0c3b10225997",
+        "nome": "Notebook Dell Inspiron (demo)",
+        "situacao": "disponivel",
+        "patrimonio": "DEMO-001"
+      },
+      {
+        "id": "4ac257b8-1f69-4108-9bbd-cb68f1a21c54",
+        "nome": "Monitor LG 24 polegadas (demo)",
+        "situacao": "disponivel",
+        "patrimonio": "DEMO-002"
+      },
+      {
+        "id": "3aa3da00-ba5c-44a2-b0a8-ff3715f3bb6d",
+        "nome": "Cabo HDMI 2 metros (demo)",
+        "situacao": "disponivel",
+        "patrimonio": "DEMO-003"
+      },
+      {
+        "id": "05e0ed31-bab6-418d-b1ac-9b1a5415c958",
+        "nome": "Webcam Logitech (demo)",
+        "situacao": "manutencao",
+        "patrimonio": "DEMO-004"
+      }
+    ],
+    "imagens": 12,
+    "rlsImagens": true,
+    "emprestimos": 0,
+    "observadoEm": "2026-11-11T08:28:54.930243+00:00",
+    "equipamentos": 16
+  },
+  "depoisDaRepeticao": {
+    "ids": [
+      "05e0ed31-bab6-418d-b1ac-9b1a5415c958",
+      "1c004f3d-3e48-4c81-9d89-a49d112e74f6",
+      "3aa3da00-ba5c-44a2-b0a8-ff3715f3bb6d",
+      "40f824d0-c1e2-4a1d-b4f4-c756d8ab6998",
+      "481a216c-54c1-4e73-b41a-8fa5dec41872",
+      "4ac257b8-1f69-4108-9bbd-cb68f1a21c54",
+      "4f6300e2-54dc-43e0-b6a5-9b08908af4ce",
+      "6e18bc16-ef68-4604-a808-77ccbcec9276",
+      "8ae6fd07-8197-4825-b172-abda2b1a064f",
+      "90fcb87e-946b-4c8a-989f-0580576c056a",
+      "aada1cb2-653f-4676-ba8c-ce1c3b127cff",
+      "bd957bbf-07c1-49c7-8047-47b62f8ff4da",
+      "c61fa9b6-f756-4478-8ede-84c4ce9c347e",
+      "c68ffd1b-da24-43a8-8853-0c3b10225997",
+      "e91e239e-bd4e-4c51-9e35-398634767893",
+      "f72264ff-1efe-4391-88c5-54a93d41d7b9"
+    ],
+    "demos": [
+      {
+        "id": "c68ffd1b-da24-43a8-8853-0c3b10225997",
+        "nome": "Notebook Dell Inspiron (demo)",
+        "situacao": "disponivel",
+        "patrimonio": "DEMO-001"
+      },
+      {
+        "id": "4ac257b8-1f69-4108-9bbd-cb68f1a21c54",
+        "nome": "Monitor LG 24 polegadas (demo)",
+        "situacao": "disponivel",
+        "patrimonio": "DEMO-002"
+      },
+      {
+        "id": "3aa3da00-ba5c-44a2-b0a8-ff3715f3bb6d",
+        "nome": "Cabo HDMI 2 metros (demo)",
+        "situacao": "disponivel",
+        "patrimonio": "DEMO-003"
+      },
+      {
+        "id": "05e0ed31-bab6-418d-b1ac-9b1a5415c958",
+        "nome": "Webcam Logitech (demo)",
+        "situacao": "manutencao",
+        "patrimonio": "DEMO-004"
+      }
+    ],
+    "imagens": 12,
+    "rlsImagens": true,
+    "emprestimos": 0,
+    "observadoEm": "2026-11-11T08:33:56.07968+00:00",
+    "equipamentos": 16
+  },
+  "resultado": "16 equipamentos, 12 imagens, IDs e DEMOs preservados, RLS ativa, nenhum empréstimo criado",
+  "limitacao": "Fotos ilustrativas escolhidas com ressalvas; não representa aprovação visual original nem execução humana"
+}

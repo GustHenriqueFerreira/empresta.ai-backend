@@ -1,0 +1,249 @@
+{
+  "registradoEm": "2026-11-11T05:29:55.156Z",
+  "tipo": "triagem visual do agente; não substitui revisão humana",
+  "instrucaoUsuario": "deixar seleção automática como está; responsável buscará fotos manualmente",
+  "consultasReaisConcluidas": 12,
+  "candidatasPorConsulta": 20,
+  "imagensReaisTriadas": 23,
+  "contagens": {
+    "RECUSADA": 18,
+    "SUGERIDA_PARA_REVISAO_HUMANA": 3,
+    "PENDENTE_COMPATIBILIDADE": 1,
+    "PENDENTE_IDENTIFICACAO": 1
+  },
+  "aprovacoesHumanas": 0,
+  "manifestoRealEmitido": false,
+  "entrega2Pronta": false,
+  "fotos": [
+    {
+      "patrimonio": "TI-0001",
+      "fotoId": 4532322,
+      "pagina": "https://pixabay.com/photos/workplace-office-business-table-4532322/",
+      "autor": "MaxxGirr",
+      "arquivo": "skills/imagens-equipamentos/.cache/triagem/TI-0001-4532322.png",
+      "sha256": "abba069bd9549b366c9823f72e4c38933c7330fbcecc345bd9e060f8411ec4fd",
+      "resultadoTriagem": "RECUSADA",
+      "motivo": "Logo Apple, telas com conteúdo e equipamento diferente do notebook"
+    },
+    {
+      "patrimonio": "TI-0001",
+      "fotoId": 5517762,
+      "pagina": "https://pixabay.com/photos/workplace-workspace-home-office-5517762/",
+      "autor": "ricardorv30",
+      "arquivo": "skills/imagens-equipamentos/.cache/triagem/TI-0001-5517762.png",
+      "sha256": "7ca2385e6f338e38a8cdc1ce813e2e30692cebe11bcb40975e7f0aa1e70c80a6",
+      "resultadoTriagem": "RECUSADA",
+      "motivo": "Pessoa visível no retrato ao fundo"
+    },
+    {
+      "patrimonio": "TI-0002",
+      "fotoId": 791032,
+      "pagina": "https://pixabay.com/photos/technology-laptop-computer-netbook-791032/",
+      "autor": "kaboompics",
+      "arquivo": "skills/imagens-equipamentos/.cache/triagem/TI-0002-791032.png",
+      "sha256": "42c918f73f825c5de8147195aabdadaddd2bb541ec563daa8e86d02f85e33dd0",
+      "resultadoTriagem": "SUGERIDA_PARA_REVISAO_HUMANA",
+      "motivo": "Notebook sem pessoa/marca/texto legível observados na triagem; não é aprovação humana"
+    },
+    {
+      "patrimonio": "TI-0003",
+      "fotoId": 2567809,
+      "pagina": "https://pixabay.com/photos/laptop-computer-technology-2567809/",
+      "autor": "StockSnap",
+      "arquivo": "skills/imagens-equipamentos/.cache/triagem/TI-0003-2567809.png",
+      "sha256": "f1ea7682fe3715edfddd58d38479ac100d6eab835909c920b25bc87af2794c2e",
+      "resultadoTriagem": "RECUSADA",
+      "motivo": "Tela com ícones/conteúdo visível"
+    },
+    {
+      "patrimonio": "TI-0004",
+      "fotoId": 4906312,
+      "pagina": "https://pixabay.com/photos/laptop-workstaion-office-work-4906312/",
+      "autor": "Deeezy",
+      "arquivo": "skills/imagens-equipamentos/.cache/triagem/TI-0004-4906312.png",
+      "sha256": "0375ec3d26bdaf6a9f56393092c574f41bee64b85c765dc9e92003c52c4ec3c4",
+      "resultadoTriagem": "RECUSADA",
+      "motivo": "Pessoa/mãos e escrita visíveis"
+    },
+    {
+      "patrimonio": "TI-0005",
+      "fotoId": 1207834,
+      "pagina": "https://pixabay.com/photos/home-office-pc-computer-1207834/",
+      "autor": "martinvorel_com",
+      "arquivo": "skills/imagens-equipamentos/.cache/triagem/TI-0005-1207834.png",
+      "sha256": "29099a34c23ccb6fc3a57650ad35a4771cacd0b58d8c51dd5422cb4756a9d4be",
+      "resultadoTriagem": "RECUSADA",
+      "motivo": "Logo Apple legível"
+    },
+    {
+      "patrimonio": "TI-0006",
+      "fotoId": 405768,
+      "pagina": "https://pixabay.com/photos/workstation-home-office-computer-405768/",
+      "autor": "DaveMeier",
+      "arquivo": "skills/imagens-equipamentos/.cache/triagem/TI-0006-405768.png",
+      "sha256": "194e9cbde54cd78fe885f0e8b2c73a54894fd863a730e64626d5a703f882f1ce",
+      "resultadoTriagem": "RECUSADA",
+      "motivo": "Logos Dell, textos e conteúdo nas telas"
+    },
+    {
+      "patrimonio": "TI-0007",
+      "fotoId": 6801334,
+      "pagina": "https://pixabay.com/photos/technology-devices-electronics-6801334/",
+      "autor": "Mariakray",
+      "arquivo": "skills/imagens-equipamentos/.cache/triagem/TI-0007-6801334.png",
+      "sha256": "936f00309b16f8fa09ebacad4ff5c75024e58c4c46e682881de73004d3b275e4",
+      "resultadoTriagem": "RECUSADA",
+      "motivo": "Foto de laptop/telefone, não representa o monitor solicitado"
+    },
+    {
+      "patrimonio": "TI-0008",
+      "fotoId": 2202226,
+      "pagina": "https://pixabay.com/photos/hdmi-connector-cable-plug-2202226/",
+      "autor": "WikimediaImages",
+      "arquivo": "skills/imagens-equipamentos/.cache/triagem/TI-0008-2202226.png",
+      "sha256": "7dffb9db7b8a1cfbcb055aa3eb263966e832c38347348e082ecca0b35bc0a169",
+      "resultadoTriagem": "RECUSADA",
+      "motivo": "Inscrição HDMI legível; requisito de ausência de texto não atendido"
+    },
+    {
+      "patrimonio": "TI-0009",
+      "fotoId": 4875319,
+      "pagina": "https://pixabay.com/photos/cable-computer-usb-technology-4875319/",
+      "autor": "ds_30",
+      "arquivo": "skills/imagens-equipamentos/.cache/triagem/TI-0009-4875319.png",
+      "sha256": "f1cd59be0cd8b02c961bdee5939b373f98e75f07a8d18b0675e5d903e9a9e188",
+      "resultadoTriagem": "RECUSADA",
+      "motivo": "Conectores mostrados não correspondem claramente a USB-C"
+    },
+    {
+      "patrimonio": "TI-0010",
+      "fotoId": 494649,
+      "pagina": "https://pixabay.com/photos/network-cable-cable-patch-494649/",
+      "autor": "blickpixel",
+      "arquivo": "skills/imagens-equipamentos/.cache/triagem/TI-0010-494649.png",
+      "sha256": "b2c439e3d1dd3a6f48347ac46e33363da77b0baa0eb5da5abfc7f757ccac0d6f",
+      "resultadoTriagem": "SUGERIDA_PARA_REVISAO_HUMANA",
+      "motivo": "Cabos RJ45 sem conteúdo proibido observado; aprovação humana pendente"
+    },
+    {
+      "patrimonio": "TI-0011",
+      "fotoId": 1219748,
+      "pagina": "https://pixabay.com/photos/camera-webcam-computer-internet-1219748/",
+      "autor": "Aksa2011",
+      "arquivo": "skills/imagens-equipamentos/.cache/triagem/TI-0011-1219748.png",
+      "sha256": "bdf0ffac988897f3ba67f55abbdcfd0d3be8003eeced2fc4ac8d96c48a7bd6e2",
+      "resultadoTriagem": "RECUSADA",
+      "motivo": "Inscrições legíveis na webcam, incluindo 1.3 megapixel"
+    },
+    {
+      "patrimonio": "TI-0012",
+      "fotoId": 1362419,
+      "pagina": "https://pixabay.com/photos/camera-digital-photography-1362419/",
+      "autor": "maddyjaya",
+      "arquivo": "skills/imagens-equipamentos/.cache/triagem/TI-0012-1362419.png",
+      "sha256": "3a8d04706b8c3174c6f4311510eb49a4f6b306bc0ff7d72a9756eafef749a1dd",
+      "resultadoTriagem": "RECUSADA",
+      "motivo": "Marca Fujifilm e outras inscrições legíveis"
+    },
+    {
+      "patrimonio": "TI-0001",
+      "fotoId": 4484282,
+      "pagina": "https://pixabay.com/photos/computer-office-laptop-desk-4484282/",
+      "autor": "annmariephotography",
+      "arquivo": "skills/imagens-equipamentos/.cache/triagem/TI-0001-4484282.png",
+      "sha256": "2ae2d2951e528d58961f4f5f7c80d6e65a6372e5f684f21a2bb216989deaad67",
+      "resultadoTriagem": "RECUSADA",
+      "motivo": "Textos legíveis em papelaria e marca no mouse"
+    },
+    {
+      "patrimonio": "TI-0003",
+      "fotoId": 5060836,
+      "pagina": "https://pixabay.com/photos/background-business-closeup-5060836/",
+      "autor": "juliasorokina",
+      "arquivo": "skills/imagens-equipamentos/.cache/triagem/TI-0003-5060836.png",
+      "sha256": "502ed103679232052aae6875784447dd3a4b89ce2e0b3743a95e4a55f2953a83",
+      "resultadoTriagem": "RECUSADA",
+      "motivo": "Letras e símbolo Windows legíveis no teclado"
+    },
+    {
+      "patrimonio": "TI-0004",
+      "fotoId": 593327,
+      "pagina": "https://pixabay.com/photos/desk-laptop-notebook-pen-workspace-593327/",
+      "autor": "StartupStockPhotos",
+      "arquivo": "skills/imagens-equipamentos/.cache/triagem/TI-0004-593327.png",
+      "sha256": "3fb996e267ec9b524d4def14a75ce9bd355ae260c10b243fffa9d9b8f2e65e95",
+      "resultadoTriagem": "RECUSADA",
+      "motivo": "Inscrição/marca legível na caneta"
+    },
+    {
+      "patrimonio": "TI-0005",
+      "fotoId": 820390,
+      "pagina": "https://pixabay.com/photos/office-home-workspace-820390/",
+      "autor": "fancycrave1",
+      "arquivo": "skills/imagens-equipamentos/.cache/triagem/TI-0005-820390.png",
+      "sha256": "eed5d3513df4902ad6fc1e999f9c2e2c6af6e138e6dd82c8b2432347a5b1ee9d",
+      "resultadoTriagem": "RECUSADA",
+      "motivo": "Logo Apple e tela com conteúdo"
+    },
+    {
+      "patrimonio": "TI-0006",
+      "fotoId": 2181919,
+      "pagina": "https://pixabay.com/photos/chairs-conference-room-empty-2181919/",
+      "autor": "Pexels",
+      "arquivo": "skills/imagens-equipamentos/.cache/triagem/TI-0006-2181919.png",
+      "sha256": "ceca5b418ee683dd6da6a8974ea1d6f00fca9ebcb03ae594c2e5dafb8d035cbd",
+      "resultadoTriagem": "PENDENTE_COMPATIBILIDADE",
+      "motivo": "Foto de sala com tela distante; compatibilidade como monitor de computador não demonstrada"
+    },
+    {
+      "patrimonio": "TI-0007",
+      "fotoId": 4900736,
+      "pagina": "https://pixabay.com/photos/black-blank-business-communication-4900736/",
+      "autor": "jeanvdmeulen",
+      "arquivo": "skills/imagens-equipamentos/.cache/triagem/TI-0007-4900736.png",
+      "sha256": "b58892df244f041715182c7a796a1d155f397259c5998b66b5c5c7606141f37f",
+      "resultadoTriagem": "RECUSADA",
+      "motivo": "Notebook em lugar de monitor, logos HP/Intel e letras legíveis"
+    },
+    {
+      "patrimonio": "TI-0008",
+      "fotoId": 643728,
+      "pagina": "https://pixabay.com/photos/hdmi-cable-connection-643728/",
+      "autor": "PIX1861",
+      "arquivo": "skills/imagens-equipamentos/.cache/triagem/TI-0008-643728.png",
+      "sha256": "073d7dfd76072962b7ea402f9c40dcb15e3241a735bc7192bd5da1b55385be54",
+      "resultadoTriagem": "SUGERIDA_PARA_REVISAO_HUMANA",
+      "motivo": "Cabo HDMI sem conteúdo proibido observado; aprovação humana pendente"
+    },
+    {
+      "patrimonio": "TI-0009",
+      "fotoId": 7066188,
+      "pagina": "https://pixabay.com/photos/cable-charging-cable-usb-7066188/",
+      "autor": "Alexandra_Koch",
+      "arquivo": "skills/imagens-equipamentos/.cache/triagem/TI-0009-7066188.png",
+      "sha256": "450cd8461df3629e0b78dd2a61f518e18512ad82929df502e4f59e0691d20192",
+      "resultadoTriagem": "PENDENTE_IDENTIFICACAO",
+      "motivo": "Não foi possível confirmar USB-C na imagem final; não aceitar por suposição"
+    },
+    {
+      "patrimonio": "TI-0011",
+      "fotoId": 796227,
+      "pagina": "https://pixabay.com/photos/web-cam-internet-video-796227/",
+      "autor": "Vitamin",
+      "arquivo": "skills/imagens-equipamentos/.cache/triagem/TI-0011-796227.png",
+      "sha256": "c24b3030892325eaca7628f75498627860818fce4dd95c41081caec02ab9fbc8",
+      "resultadoTriagem": "RECUSADA",
+      "motivo": "Texto WEB CAMERA e outras inscrições legíveis"
+    },
+    {
+      "patrimonio": "TI-0012",
+      "fotoId": 3545828,
+      "pagina": "https://pixabay.com/photos/camera-compact-digital-3545828/",
+      "autor": "HOerwin56",
+      "arquivo": "skills/imagens-equipamentos/.cache/triagem/TI-0012-3545828.png",
+      "sha256": "bd133aa5ad9326ed7c3b2955f3398e89a91e7924d0fe24498dbf8550b23cc28a",
+      "resultadoTriagem": "RECUSADA",
+      "motivo": "Marca Pentax e etiquetas/textos legíveis"
+    }
+  ]
+}

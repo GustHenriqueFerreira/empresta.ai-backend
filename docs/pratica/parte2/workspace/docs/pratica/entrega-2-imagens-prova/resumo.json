@@ -1,0 +1,69 @@
+{
+  "registradoEm": "2026-11-11T05:03:58.228Z",
+  "estado": "IMPLEMENTACAO_LOCAL_VALIDADA; ENTREGA_2_NAO_CONCLUIDA",
+  "testesJest": 23,
+  "cenariosNegativosCLI": 7,
+  "tipos": "passou",
+  "yamlReferenciasDescoberta": "validacao local passou; PyYAML ausente, quick_validate.py nao executado",
+  "avaliacaoIndependente": "achados corrigidos e rechecados; nenhuma aprovacao de fotos reais",
+  "chavePixabay": "responsavel informou ainda nao ter",
+  "fotosReaisObtidas": 0,
+  "fotosReaisRevisadas": 0,
+  "recusasVisuaisReais": 0,
+  "publicacaoExecutada": false,
+  "novosCommitsOuPush": false,
+  "fontes": [
+    {
+      "arquivo": "skills/imagens-equipamentos/SKILL.md",
+      "sha256": "afc0c6af19c42656bdcfd9f19789d41cb149593807dd373af0824ec033e2003e"
+    },
+    {
+      "arquivo": "skills/imagens-equipamentos/agents/openai.yaml",
+      "sha256": "7dff66aa7927cf3bd10b78f0099fcdeec1b1ea3157282d9def0733f5e69b799a"
+    },
+    {
+      "arquivo": "skills/imagens-equipamentos/scripts/pipeline.ts",
+      "sha256": "b050d6d1284970e5021ccb6b77dc5ed294b23883cc3f6496960c3b86f0cb73c4"
+    },
+    {
+      "arquivo": "skills/imagens-equipamentos/scripts/cli.ts",
+      "sha256": "6d3e683eb4e0ed52bbec3cdf7e36bf41d2b69cfe46d71363f3000230ecf7cd0d"
+    },
+    {
+      "arquivo": "skills/imagens-equipamentos/scripts/buscar.ps1",
+      "sha256": "3c67f3d2a90e0e001bed4f5f94b00aabf23605ad03e40376f385f965f7cb2a46"
+    },
+    {
+      "arquivo": "skills/imagens-equipamentos/package.json",
+      "sha256": "84cf9baf0ac6438f18cb944586e8ca1a93a4633d8331526b90b144b516ebbf04"
+    },
+    {
+      "arquivo": "skills/imagens-equipamentos/package-lock.json",
+      "sha256": "5cfedf9bf19c40d404573e4b69ecec2f8dc24b1a9c52a21bc4574c05b5068028"
+    },
+    {
+      "arquivo": "skills/imagens-equipamentos/tests/pipeline.spec.ts",
+      "sha256": "18561b510ea322099c4192633b9da41aa3ec7829c3fd973403724055e766a800"
+    },
+    {
+      "arquivo": "skills/imagens-equipamentos/tests/jest.config.cjs",
+      "sha256": "cea8b0d7d8976c3dc1cc7518c861b1547abb379d89e39691588a45cb97ebb3bd"
+    },
+    {
+      "arquivo": "skills/imagens-equipamentos/tsconfig.json",
+      "sha256": "862c743c55aacc07d3bcb891062150ca8be02c2efcf2c3454a97f83e7eb0de71"
+    },
+    {
+      "arquivo": "skills/imagens-equipamentos/references/contrato.md",
+      "sha256": "91991344e7b6a867c12fea706f280fbcf2cc62dc3e143b3829d64ef516b201d4"
+    },
+    {
+      "arquivo": "skills/imagens-equipamentos/references/operacao.md",
+      "sha256": "f72a8ac54da8ec1411db88da44c7798fa6848684c13bc5fc1f0c5773738d2414"
+    },
+    {
+      "arquivo": "skills/imagens-equipamentos/references/revisao-visual.md",
+      "sha256": "050e0de170922ecdcf2a45ff88784357984953134b7adae693293088c79126ed"
+    }
+  ]
+}

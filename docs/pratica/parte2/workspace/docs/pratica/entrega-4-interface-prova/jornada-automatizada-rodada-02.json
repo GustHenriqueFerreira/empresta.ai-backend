@@ -1,0 +1,39 @@
+{
+  "executor": "principal via CUA; asserções automatizadas, não Jest",
+  "inicio": "2026-11-11T09:26:21.220Z",
+  "producao": false,
+  "casos": [
+    {
+      "nome": "EM-CA-10: foto válida carrega e onError apresenta estado indisponível",
+      "passou": true
+    },
+    {
+      "nome": "EM-CA-10: senha incorreta mostra erro sem entrar",
+      "passou": true
+    },
+    {
+      "nome": "EM-CA-10: login e GET lentos mostram carregamento e recuperam catálogo",
+      "passou": true
+    },
+    {
+      "nome": "EM-CA-10: modal mantém foco e duplo clique envia uma única solicitação",
+      "passou": true
+    },
+    {
+      "nome": "EM-CA-05 EM-CA-09: própria lista renderiza equipamento e data recebida",
+      "passou": true
+    },
+    {
+      "nome": "EM-CA-09: outra identidade não renderiza empréstimo da primeira",
+      "passou": true
+    },
+    {
+      "nome": "EM-CA-03 EM-CA-10: resposta perdida após gravação reconcilia GET sem repetir POST",
+      "passou": false,
+      "erro": "Error: Playwright selector deadline exceeded\nlocator.waitFor(visible) timed out for selector internal:role=button[name=\"Está com você\"s]\nLocator diagnostics: {\"kind\":\"no_matches\",\"action\":\"waitFor\",\"locator\":\"internal:role=button[name=\\\"Está com você\\\"s]\",\"matchCount\":0,\"matches\":[],\"visibleCount\":0,\"truncated\":false}"
+    }
+  ],
+  "sucesso": false,
+  "erro": "EM-CA-03 EM-CA-10: resposta perdida após gravação reconcilia GET sem repetir POST: Error: Playwright selector deadline exceeded\nlocator.waitFor(visible) timed out for selector internal:role=button[name=\"Está com você\"s]\nLocator diagnostics: {\"kind\":\"no_matches\",\"action\":\"waitFor\",\"locator\":\"internal:role=button[name=\\\"Está com você\\\"s]\",\"matchCount\":0,\"matches\":[],\"visibleCount\":0,\"truncated\":false}",
+  "fim": "2026-11-11T09:27:00.426Z"
+}

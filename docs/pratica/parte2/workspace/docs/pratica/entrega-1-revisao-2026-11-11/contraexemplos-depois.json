@@ -1,0 +1,101 @@
+{
+  "baselineValidoAprovou": true,
+  "casos": [
+    {
+      "caso": "E1-03: vereditos contraditórios",
+      "aprovou": false
+    },
+    {
+      "caso": "E1-03: ID só na observação",
+      "aprovou": false
+    },
+    {
+      "caso": "E1-01: prefixo de outro critério",
+      "aprovou": false
+    },
+    {
+      "caso": "E1-01: nome de teste com ID parcial",
+      "aprovou": false
+    },
+    {
+      "caso": "E1-03: critérios vazios na função",
+      "aprovou": false
+    },
+    {
+      "caso": "E1-04: nenhum evento de sessão",
+      "aprovou": false
+    },
+    {
+      "caso": "E1-04: ferramenta desconhecida",
+      "aprovou": false
+    },
+    {
+      "caso": "E1-04: sessão sem conclusão",
+      "aprovou": false
+    },
+    {
+      "caso": "E1-04: evento desconhecido",
+      "aprovou": false
+    },
+    {
+      "caso": "E1-05: rodada de outro relatório",
+      "aprovou": false
+    },
+    {
+      "caso": "E1-05: spec de outro relatório",
+      "aprovou": false
+    },
+    {
+      "caso": "E1-05: escopo de outro relatório",
+      "aprovou": false
+    },
+    {
+      "caso": "E1-03: Jest contradiz exitCode",
+      "aprovou": false
+    },
+    {
+      "caso": "E1-03: asserção falha omitida do resumo",
+      "aprovou": false
+    },
+    {
+      "caso": "E1-03: contagens Jest incompatíveis",
+      "aprovou": false
+    },
+    {
+      "caso": "E1-03: status de asserção desconhecido",
+      "aprovou": false
+    },
+    {
+      "caso": "E1-01: parte do mesmo CA pendente",
+      "aprovou": false
+    },
+    {
+      "caso": "E1-03: arquivo com hash inválido",
+      "aprovou": false
+    },
+    {
+      "caso": "E1-03: checks de outra revisão",
+      "aprovou": false
+    },
+    {
+      "caso": "E1-01: CA duplicado no relatório",
+      "aprovou": false
+    },
+    {
+      "caso": "E1-04: sessão falha",
+      "aprovou": false
+    },
+    {
+      "caso": "E1-03: processo falha",
+      "aprovou": false
+    },
+    {
+      "caso": "E1-03: rodapé aprova sem tabela",
+      "aprovou": false
+    },
+    {
+      "caso": "E1-05: mensagem diferente do relatório",
+      "aprovou": false
+    }
+  ]
+}

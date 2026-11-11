@@ -1,0 +1,42 @@
+{
+  "registradoEm": "2026-11-11T05:18:42.986Z",
+  "area": "lote isolado sem cache real",
+  "consultasExternas": 0,
+  "casos": [
+    {
+      "caso": "upload",
+      "exitCode": 1,
+      "recusaEsperada": true
+    },
+    {
+      "caso": "traversal",
+      "exitCode": 1,
+      "recusaEsperada": true
+    },
+    {
+      "caso": "sem-chave-sem-cache",
+      "exitCode": 1,
+      "recusaEsperada": true
+    },
+    {
+      "caso": "sem-manifesto",
+      "exitCode": 1,
+      "recusaEsperada": true
+    },
+    {
+      "caso": "lote-invalido",
+      "exitCode": 1,
+      "recusaEsperada": true
+    },
+    {
+      "caso": "env-uppercase",
+      "exitCode": 1,
+      "recusaEsperada": true
+    },
+    {
+      "caso": "env-lowercase",
+      "exitCode": 1,
+      "recusaEsperada": true
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "emprestai-skill-imagens-equipamentos",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "imagens": "node ../../backend/node_modules/tsx/dist/cli.mjs scripts/cli.ts",
+    "test": "node ../../backend/node_modules/jest/bin/jest.js --config=tests/jest.config.cjs --runInBand --no-cache",
+    "typecheck": "node ../../backend/node_modules/typescript/bin/tsc -p tsconfig.json --noEmit"
+  },
+  "dependencies": { "sharp": "0.35.5" },
+  "engines": { "node": ">=22.12.0" }
+}

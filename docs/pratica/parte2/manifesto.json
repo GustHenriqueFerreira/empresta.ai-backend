@@ -1,0 +1,906 @@
+{
+  "versao": 1,
+  "geradoEm": "2026-11-11T09:44:04.589Z",
+  "arquivos": [
+    {
+      "caminho": "AGENTS.md",
+      "sha256": "bf70c7213667d1fbbcf2c787979ccd5019829e21b0c8c2908b3969ab87461fd7"
+    },
+    {
+      "caminho": "PARTE-2.md",
+      "sha256": "f48a6871a0837df0dabf9b4762738f4a9d779d565c460095af2bef77f094cf5b"
+    },
+    {
+      "caminho": "layout.md",
+      "sha256": "6aa074b6345a36abf834282f5684e77185a46ddd60f1537958a819e3da9d1052"
+    },
+    {
+      "caminho": "ENTREGA.md",
+      "sha256": "4376564fd38a02e5a0486c5c865a5beb6c34ad9af967193d930a622bf69aeebc"
+    },
+    {
+      "caminho": "rules/business-rules.md",
+      "sha256": "6f4b4d08f172071f2ea1d1d9a27119fe62afceaa6353e8c024088b38ed9399f0"
+    },
+    {
+      "caminho": "rules/CHECKS.md",
+      "sha256": "0d4004783b46f2a64a9b6bfc7d76c6ddf2405788944f5f6e971ed808cab30aa6"
+    },
+    {
+      "caminho": "rules/design-system.md",
+      "sha256": "fda92f2ec1bcbabf263376e646bb1f7cfb99242fca6ace0f05393b6465308c86"
+    },
+    {
+      "caminho": "rules/HANDOFF.md",
+      "sha256": "034487c8400b79171f5b5c6fd8edb6e32ac5b2b71ed6fe67a192a1a260a541d7"
+    },
+    {
+      "caminho": "rules/migrations.md",
+      "sha256": "a01c19924329bc378e8d39d0c3603b912d2d1dd037b31c1283fda9a2bd3e3fdf"
+    },
+    {
+      "caminho": "rules/operacao.md",
+      "sha256": "0b03922c2fff5d5a709ca42cdd1907c772c0d372300adb14350eb583eda5e11d"
+    },
+    {
+      "caminho": "rules/operation.md",
+      "sha256": "9e2b5dc7d3148bd372fd98c9abee2ade7ac4f48fa5f1d52651ab5ef7b12328f5"
+    },
+    {
+      "caminho": "rules/README.md",
+      "sha256": "b5eccf8dee2c957b134596dabc977152845b4a57fae60ced9271e6467fafed9a"
+    },
+    {
+      "caminho": "rules/RESTRICTIONS.md",
+      "sha256": "30a70465abd36e7c60d0d83d8876c089f8b54769c5debb57cb0af5671c7c6204"
+    },
+    {
+      "caminho": "rules/SECRETS.md",
+      "sha256": "152f66cb5854f8fc30e2ee7a78a889b1d637193982556c02d59ba3e19e1c1db7"
+    },
+    {
+      "caminho": "rules/skill.md",
+      "sha256": "b427bb6a27ed57668d4aa11731e7c329b5cdea778e25acb4ada15b5382eb426b"
+    },
+    {
+      "caminho": "rules/spec-flow-pratica.md",
+      "sha256": "ead7f512056ef4f8a27e876a6d77dcd956758b8dd378a9b14b836eef6f44f1e7"
+    },
+    {
+      "caminho": "rules/spec-flow.md",
+      "sha256": "2fe18823dd0b216dfa546ebe860f20ceee57c3c9e790321437a1a4d1e85c15bf"
+    },
+    {
+      "caminho": "rules/stack.md",
+      "sha256": "8c9b03f10d7221bd6de636f7ef8a5a647db58b76f53e6a800558ba0eb3eafc49"
+    },
+    {
+      "caminho": "rules/tests.md",
+      "sha256": "3d537eb077b7788c29d14cdfca63c4e28054d972048ab45d9d502f07d02d13e6"
+    },
+    {
+      "caminho": "rules/workflow.md",
+      "sha256": "3efcd6e11a8c2b3f18b483b5a3549f66861a3d5e3c75001ccefc65384748a8c0"
+    },
+    {
+      "caminho": "docs/adr/001-stack.md",
+      "sha256": "def29eccb5df268c09756b8117bacd03c9e52c18e43ec07eb8edf02f578828b8"
+    },
+    {
+      "caminho": "docs/adr/002-design-system.md",
+      "sha256": "901e98b9f9b1567fbe416fc039c198dccc27b8499f41c04abef6c01982843d02"
+    },
+    {
+      "caminho": "docs/adr/003-processamento-imagens.md",
+      "sha256": "f0e3ee5b185569743b5c188e3db8b916e9a043783a7f186ddaad71e3bdd111d9"
+    },
+    {
+      "caminho": "docs/andar-zero.md",
+      "sha256": "12d5104d81e100ee85894f569c1c40f19012a45c7f4603f7df1851387f4eee39"
+    },
+    {
+      "caminho": "docs/ENTREGA-PROFESSOR.md",
+      "sha256": "85b2f79f6066e66cc1f15782992e60115a37220752485fccc80dcc01e11de4af"
+    },
+    {
+      "caminho": "docs/login-validacao.png",
+      "sha256": "a0e2ab62605b463306dc013d9ed34ece5cd2676746b70813b8f90054fb8f6229"
+    },
+    {
+      "caminho": "docs/parte2/alteracoes-preservadas-2026-11-06/agents/verificador-spec.md",
+      "sha256": "da34a943cbc10e082708ab7e4bc46c8ab208bcfcd4fddc763816ca310dc2a947"
+    },
+    {
+      "caminho": "docs/parte2/alteracoes-preservadas-2026-11-06/AGENTS.md",
+      "sha256": "24d9a9023c6d3e661b01d73a17f8a7f798cbbb868f7ed230c2dec7faaa609ff4"
+    },
+    {
+      "caminho": "docs/parte2/alteracoes-preservadas-2026-11-06/rules/HANDOFF.md",
+      "sha256": "72bd2567e7049b938ea58546df87fb78e588d739e06e03b99ddac6ba872fd032"
+    },
+    {
+      "caminho": "docs/parte2/alteracoes-preservadas-2026-11-06/rules/RESTRICTIONS.md",
+      "sha256": "2e6101c49e36e83ce4548907084c2d80fe7637a23f7a2a33dc9e1e698ea12f68"
+    },
+    {
+      "caminho": "docs/parte2/alteracoes-preservadas-2026-11-06/rules/spec-flow.md",
+      "sha256": "2cb88c65f3948d608a3281ba651aeff49575b3c9b68a06086c60a2360b2d891c"
+    },
+    {
+      "caminho": "docs/parte2/HANDOFF.md",
+      "sha256": "e642b3dcf894b57eb04b34189f6377052c21c041268b8ac7cbc3d1328003715d"
+    },
+    {
+      "caminho": "docs/perguntas-prd.md",
+      "sha256": "018af541830e2afd5db09266fdb34eb7703c304633939fd648914855c742bb78"
+    },
+    {
+      "caminho": "docs/pratica/APLICACAO-HUMANA.md",
+      "sha256": "9b4aa0e77ab213d7479c8187fee929ea5277b124586d871bd865fe1347ac4da3"
+    },
+    {
+      "caminho": "docs/pratica/auditoria-dependencias-20261111.json",
+      "sha256": "b655c4337acc9cdae7c04ad94291fc644c82ebac6f27ab306eb028ae2421dbb1"
+    },
+    {
+      "caminho": "docs/pratica/entrega-1-auditoria-final.md",
+      "sha256": "2db4eb6a2ae19e2d1a71dab88e564c310a9941a8b08cd7dcf510b88448c25f72"
+    },
+    {
+      "caminho": "docs/pratica/entrega-1-plano.md",
+      "sha256": "4ab1a2745585415e3f7de6a472fb60e6cec9b29d0f7c15f4c0675a2f2223bf19"
+    },
+    {
+      "caminho": "docs/pratica/entrega-1-prova/01-baseline/contracts.spec.ts.txt",
+      "sha256": "0e85502970e1810f07c332f55a25624ab5a33c6a60b8149e75a62215c2f277c7"
+    },
+    {
+      "caminho": "docs/pratica/entrega-1-prova/01-baseline/jest-stderr.txt",
+      "sha256": "83f925d2caa005677df79dc54f0e81b08a25f3b707583c12ea5db07efb10a12c"
+    },
+    {
+      "caminho": "docs/pratica/entrega-1-prova/01-baseline/jest-stdout.txt",
+      "sha256": "b37bbf1e62b38e927d36b254fce42971ca7411c29081b6dbfb908d40dd5812c6"
+    },
+    {
+      "caminho": "docs/pratica/entrega-1-prova/01-baseline/pacote.json",
+      "sha256": "a54a6a327448c59cd7bfebd702a359b502e5eef41cfd94b3c0a9ae9332d890bf"
+    },
+    {
+      "caminho": "docs/pratica/entrega-1-prova/01-baseline/relatorio.md",
+      "sha256": "e92d699928433970749b6b10615f3ed5acd378313ca7c175fa227c54d6e4f553"
+    },
+    {
+      "caminho": "docs/pratica/entrega-1-prova/01-baseline/sessao.jsonl",
+      "sha256": "8d616de0b3baa67315f6e1ebe8639ad1ee39eea7c7947d278f6b43cc257c44e9"
+    },
+    {
+      "caminho": "docs/pratica/entrega-1-prova/01-baseline/spec.md",
+      "sha256": "5da963dd957b8d877c5ce77622da9b09a47848816023aae92d68c4ab291ca234"
+    },
+    {
+      "caminho": "docs/pratica/entrega-1-prova/02-baseline-corrigido/contracts.spec.ts.txt",
+      "sha256": "0e85502970e1810f07c332f55a25624ab5a33c6a60b8149e75a62215c2f277c7"
+    },
+    {
+      "caminho": "docs/pratica/entrega-1-prova/02-baseline-corrigido/jest-stderr.txt",
+      "sha256": "4b5d4cb6d710c30e0cfea7084e0ff56f991ce7e9da7d565740a06b268fe3b37d"
+    },
+    {
+      "caminho": "docs/pratica/entrega-1-prova/02-baseline-corrigido/jest-stdout.txt",
+      "sha256": "a45941d549311157289e96c4a70ab8ffef2fd1a4fe46694b1adc32a095d71472"
+    },
+    {
+      "caminho": "docs/pratica/entrega-1-prova/02-baseline-corrigido/pacote.json",
+      "sha256": "dce4f8b3e57609e3afa8a1a0679adec7415edc8d4ad4b6d8d4839e4ee43f8a4d"
+    },
+    {
+      "caminho": "docs/pratica/entrega-1-prova/02-baseline-corrigido/relatorio.md",
+      "sha256": "2e89f9728551878449255890cdef551fe03a1b2184d7a5df6519f14d48de00ff"
+    },
+    {
+      "caminho": "docs/pratica/entrega-1-prova/02-baseline-corrigido/sessao.jsonl",
+      "sha256": "6c0fef7509f7025225f7dae6530ac3f6475450517da3108778aa313729bcc78a"
+    },
+    {
+      "caminho": "docs/pratica/entrega-1-prova/02-baseline-corrigido/spec.md",
+      "sha256": "5da963dd957b8d877c5ce77622da9b09a47848816023aae92d68c4ab291ca234"
+    },
+    {
+      "caminho": "docs/pratica/entrega-1-prova/03-erro/contracts.spec.ts.txt",
+      "sha256": "3ec30024c89ecbfb472d82865c47ca59ab9784e56718e901f641014525a077e0"
+    },
+    {
+      "caminho": "docs/pratica/entrega-1-prova/03-erro/jest-stderr.txt",
+      "sha256": "492f9ce2b8f71324288dc4b8959e2e40418b8f7789df7ea6bec07fb4b8384fde"
+    },
+    {
+      "caminho": "docs/pratica/entrega-1-prova/03-erro/jest-stdout.txt",
+      "sha256": "ce47999973c5328e85cf6f93cd483bc2a84a161d9ce69231b08aa01a783d8273"
+    },
+    {
+      "caminho": "docs/pratica/entrega-1-prova/03-erro/pacote.json",
+      "sha256": "9b07e7d91c3e0b43d6de4ababd0d34397920298e92ed16c8d5a839dca207f84d"
+    },
+    {
+      "caminho": "docs/pratica/entrega-1-prova/03-erro/relatorio.md",
+      "sha256": "4e45d69b50192cbe55760a88d8f9df95901d0718cf0d439c00e6d5f8759bf875"
+    },
+    {
+      "caminho": "docs/pratica/entrega-1-prova/03-erro/sessao.jsonl",
+      "sha256": "49fc1a88e74ff38ea7fd1f2e8a44d11678268b4eba0065a93ed110eae87e4646"
+    },
+    {
+      "caminho": "docs/pratica/entrega-1-prova/03-erro/spec.md",
+      "sha256": "5da963dd957b8d877c5ce77622da9b09a47848816023aae92d68c4ab291ca234"
+    },
+    {
+      "caminho": "docs/pratica/entrega-1-prova/04-restaurado/contracts.spec.ts.txt",
+      "sha256": "0e85502970e1810f07c332f55a25624ab5a33c6a60b8149e75a62215c2f277c7"
+    },
+    {
+      "caminho": "docs/pratica/entrega-1-prova/04-restaurado/jest-stderr.txt",
+      "sha256": "1c596017399e57d15137b2d829d1681a65d5b2954f7fc5ea07d31d0cdabb52fe"
+    },
+    {
+      "caminho": "docs/pratica/entrega-1-prova/04-restaurado/jest-stdout.txt",
+      "sha256": "9c73dc1c4109c18d825abd8d47070a9589b3d9a78f9b070477145b86dd4bcede"
+    },
+    {
+      "caminho": "docs/pratica/entrega-1-prova/04-restaurado/pacote.json",
+      "sha256": "99e456d91474406e7653565b227c12dee1a8160a68dc34585088b7785531c5bf"
+    },
+    {
+      "caminho": "docs/pratica/entrega-1-prova/04-restaurado/relatorio.md",
+      "sha256": "5a1e10b162a8b4864168d63a000481bf6f03e4c09386c62bb7c95d3326c3eb32"
+    },
+    {
+      "caminho": "docs/pratica/entrega-1-prova/04-restaurado/sessao.jsonl",
+      "sha256": "e17e40965a161d97f1983de8457332103b63c586c75d55d4a1ae4c2de7bde79e"
+    },
+    {
+      "caminho": "docs/pratica/entrega-1-prova/04-restaurado/spec.md",
+      "sha256": "5da963dd957b8d877c5ce77622da9b09a47848816023aae92d68c4ab291ca234"
+    },
+    {
+      "caminho": "docs/pratica/entrega-1-prova/05-revisao-erro-2026-11-11/contracts.spec.ts.txt",
+      "sha256": "3ec30024c89ecbfb472d82865c47ca59ab9784e56718e901f641014525a077e0"
+    },
+    {
+      "caminho": "docs/pratica/entrega-1-prova/05-revisao-erro-2026-11-11/execucao.lock",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "caminho": "docs/pratica/entrega-1-prova/05-revisao-erro-2026-11-11/jest-stderr.txt",
+      "sha256": "dc7053c0e3d9186ed46e22415ded2b605fb466eeca3f7c7bf377983bfe550a39"
+    },
+    {
+      "caminho": "docs/pratica/entrega-1-prova/05-revisao-erro-2026-11-11/jest-stdout.txt",
+      "sha256": "a4c35db649daed40aded62e2135a98129956f5f0c5f167fca30fe4cc0665925b"
+    },
+    {
+      "caminho": "docs/pratica/entrega-1-prova/05-revisao-erro-2026-11-11/pacote.json",
+      "sha256": "3f58ee8d51517e1f154a6fb10ae9eb3ed913d86e0dd205ac5cad08f610a89e19"
+    },
+    {
+      "caminho": "docs/pratica/entrega-1-prova/05-revisao-erro-2026-11-11/preparo.lock",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "caminho": "docs/pratica/entrega-1-prova/05-revisao-erro-2026-11-11/relatorio.md",
+      "sha256": "d048ec7c8f25095cdff66dd4575abf232f60483a0e10b6ae4f6ea2c0a754ace5"
+    },
+    {
+      "caminho": "docs/pratica/entrega-1-prova/05-revisao-erro-2026-11-11/sessao.jsonl",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "caminho": "docs/pratica/entrega-1-prova/05-revisao-erro-2026-11-11/spec.md",
+      "sha256": "5da963dd957b8d877c5ce77622da9b09a47848816023aae92d68c4ab291ca234"
+    },
+    {
+      "caminho": "docs/pratica/entrega-1-prova/05-revisao-erro-2026-11-11-tentativa-2/contracts.spec.ts.txt",
+      "sha256": "3ec30024c89ecbfb472d82865c47ca59ab9784e56718e901f641014525a077e0"
+    },
+    {
+      "caminho": "docs/pratica/entrega-1-prova/05-revisao-erro-2026-11-11-tentativa-2/execucao.lock",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "caminho": "docs/pratica/entrega-1-prova/05-revisao-erro-2026-11-11-tentativa-2/jest-stderr.txt",
+      "sha256": "6dfee89511e2024c65e2b75f67510efe1e564bc6775a23f48adb04252a6d48c0"
+    },
+    {
+      "caminho": "docs/pratica/entrega-1-prova/05-revisao-erro-2026-11-11-tentativa-2/jest-stdout.txt",
+      "sha256": "1dd295edf7468c79e9c46714abd367bc4ecc1da6e820079f1c1cc0d0c747df98"
+    },
+    {
+      "caminho": "docs/pratica/entrega-1-prova/05-revisao-erro-2026-11-11-tentativa-2/pacote.json",
+      "sha256": "0d1a1811f6cc00a3865e41f1060e855f493216f81b5148f0b3f4bb8b14a6f272"
+    },
+    {
+      "caminho": "docs/pratica/entrega-1-prova/05-revisao-erro-2026-11-11-tentativa-2/preparo.lock",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "caminho": "docs/pratica/entrega-1-prova/05-revisao-erro-2026-11-11-tentativa-2/relatorio.md",
+      "sha256": "ac09f0c5cfce597a05d1db9a9c2c56ac64b8fa84dca981523993571e6f203394"
+    },
+    {
+      "caminho": "docs/pratica/entrega-1-prova/05-revisao-erro-2026-11-11-tentativa-2/sessao.jsonl",
+      "sha256": "8371352fd404ac4ed93440605170e7ba55593ef3c2782d0a7b310d6231abe8c6"
+    },
+    {
+      "caminho": "docs/pratica/entrega-1-prova/05-revisao-erro-2026-11-11-tentativa-2/spec.md",
+      "sha256": "5da963dd957b8d877c5ce77622da9b09a47848816023aae92d68c4ab291ca234"
+    },
+    {
+      "caminho": "docs/pratica/entrega-1-prova/06-revisao-restaurado-2026-11-11/contracts.spec.ts.txt",
+      "sha256": "0e85502970e1810f07c332f55a25624ab5a33c6a60b8149e75a62215c2f277c7"
+    },
+    {
+      "caminho": "docs/pratica/entrega-1-prova/06-revisao-restaurado-2026-11-11/execucao.lock",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "caminho": "docs/pratica/entrega-1-prova/06-revisao-restaurado-2026-11-11/jest-stderr.txt",
+      "sha256": "bc5028cc32e8e44a74e8986793e317d339fbd2f068d291d9711b1f1765928fed"
+    },
+    {
+      "caminho": "docs/pratica/entrega-1-prova/06-revisao-restaurado-2026-11-11/jest-stdout.txt",
+      "sha256": "5ff50d00bfd8c2fe2cc17c8ded84bf476dbb4dba32fd54038d60bb76f860bf70"
+    },
+    {
+      "caminho": "docs/pratica/entrega-1-prova/06-revisao-restaurado-2026-11-11/pacote.json",
+      "sha256": "490effc18984283c87ed4b63d3af056af8a53317534a2e0c5e93e29a93d5bf6d"
+    },
+    {
+      "caminho": "docs/pratica/entrega-1-prova/06-revisao-restaurado-2026-11-11/preparo.lock",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "caminho": "docs/pratica/entrega-1-prova/06-revisao-restaurado-2026-11-11/relatorio.md",
+      "sha256": "32943e707db2f50c07407391efdc5f793e6322089bab1abd6bd1f59cc7d23635"
+    },
+    {
+      "caminho": "docs/pratica/entrega-1-prova/06-revisao-restaurado-2026-11-11/sessao.jsonl",
+      "sha256": "e154135a342b97deb28b408b0070bb2db4d03c8b06161acba3d24cbb3c70ae41"
+    },
+    {
+      "caminho": "docs/pratica/entrega-1-prova/06-revisao-restaurado-2026-11-11/spec.md",
+      "sha256": "5da963dd957b8d877c5ce77622da9b09a47848816023aae92d68c4ab291ca234"
+    },
+    {
+      "caminho": "docs/pratica/entrega-1-prova/integridade.json",
+      "sha256": "4d28a63b3ca07ad73793b2f31315d3d84eb5f5d9cecb558c0d487670e2af4f56"
+    },
+    {
+      "caminho": "docs/pratica/entrega-1-prova/README.md",
+      "sha256": "15d4a0ee15a2bef79eb444d449949408eb96e69f182e95ea551ff0a7e6aefc31"
+    },
+    {
+      "caminho": "docs/pratica/entrega-1-prova/resumo-rodadas.json",
+      "sha256": "9c661e1906ec5267f7c9464b1e4c936cd141c3c5137400fbc0b442c65ab71840"
+    },
+    {
+      "caminho": "docs/pratica/entrega-1-revisao-2026-11-11/auditoria-final.md",
+      "sha256": "6cbf3925f9e30cc6aafcb41cbf303c841d78696172f16be4a5265226bed49786"
+    },
+    {
+      "caminho": "docs/pratica/entrega-1-revisao-2026-11-11/checks.txt",
+      "sha256": "0e2d2a7de20e3e8593b4b92f8302dc9422ccd3e9ca5c0d31513836fe962dccf2"
+    },
+    {
+      "caminho": "docs/pratica/entrega-1-revisao-2026-11-11/contraexemplos-antes.json",
+      "sha256": "9e8d7fda98967ed2f1f2a04de5e85143e5fe3c8081f1066b6673926b801c2490"
+    },
+    {
+      "caminho": "docs/pratica/entrega-1-revisao-2026-11-11/contraexemplos-depois.json",
+      "sha256": "2a76f0e5d3ff51f0508da90afbb7c3acf4b82745397dc1b999ec8721c7afa5c3"
+    },
+    {
+      "caminho": "docs/pratica/entrega-1-revisao-2026-11-11/README.md",
+      "sha256": "f46a39cca034912e2483d70ad28e907be6818d22982a96eff984fe1ec96e5e6c"
+    },
+    {
+      "caminho": "docs/pratica/entrega-1-revisao-2026-11-11/resumo-final.json",
+      "sha256": "032ec140ba90745e9499660c215f7a433e7bde84c33a9f9ba952a548e75d5972"
+    },
+    {
+      "caminho": "docs/pratica/entrega-1-revisao-2026-11-11/validar-veredito.antes.mjs.txt",
+      "sha256": "1c50757df42d525e538a3bc55dc4e90aeca948a46d388646772f5122ca23adbf"
+    },
+    {
+      "caminho": "docs/pratica/entrega-1-verificador.md",
+      "sha256": "1d83153fcb67218343c6d52287cd9cf30087710a6f3a31565b6d6eac7c948864"
+    },
+    {
+      "caminho": "docs/pratica/entrega-2-imagens-prova/avaliacao-independente.md",
+      "sha256": "3f2982ef0a22db1223ec74ac227d91763b986bd41b15c10d000a897bf4230e23"
+    },
+    {
+      "caminho": "docs/pratica/entrega-2-imagens-prova/cli-continuacao.json",
+      "sha256": "2660169da4c98c0b3b1542333b5bc6b4eb868eaf9945a8114036d231a03dbed8"
+    },
+    {
+      "caminho": "docs/pratica/entrega-2-imagens-prova/cli.json",
+      "sha256": "110e0f5c446718b0536a6943b8375cb31d5ea687d6a4ca8cf0ed8765af5fadc0"
+    },
+    {
+      "caminho": "docs/pratica/entrega-2-imagens-prova/continuidade-primeira-busca.json",
+      "sha256": "0def06de303edcc77a51b43b83bb12749169823b2a903bc43e570392510ecf44"
+    },
+    {
+      "caminho": "docs/pratica/entrega-2-imagens-prova/jest.json",
+      "sha256": "f6c0411384547742b15c333d448ff0ebb6a610f28827f1712f511bb97c6103dd"
+    },
+    {
+      "caminho": "docs/pratica/entrega-2-imagens-prova/README.md",
+      "sha256": "b22fbd0f9139fe7e11e6e8321ceba8a8c48bda5b9e7b2f9ea085e472d705b6cf"
+    },
+    {
+      "caminho": "docs/pratica/entrega-2-imagens-prova/resumo.json",
+      "sha256": "9487d6f49f145c881db8bc437bcf6a4ee98e4b9487e77ad2e69a785841814efc"
+    },
+    {
+      "caminho": "docs/pratica/entrega-2-imagens-prova/triagem-2026-11-11.json",
+      "sha256": "50accc20a0733b6b0faba552dce053cad36e5dfec4381537e7bcc8c57d125567"
+    },
+    {
+      "caminho": "docs/pratica/entrega-2-imagens-prova/triagem-primeira-foto.json",
+      "sha256": "567aef06554e08fa5a9e959c3bafc47d5c29d7caa736f887ff2ea75abe79d2a4"
+    },
+    {
+      "caminho": "docs/pratica/entrega-3-dados-prova/aplicacao-producao-20261111.json",
+      "sha256": "53c55d8c528668819aa53784619fc8255f34857b38d5d540559ad2a01b3e7a14"
+    },
+    {
+      "caminho": "docs/pratica/entrega-3-dados-prova/catalogo-producao-20261111.json",
+      "sha256": "39326314bff54bc041e1da5051329a3380313a009fd200f49153880b5bbfdd30"
+    },
+    {
+      "caminho": "docs/pratica/entrega-3-dados-prova/checks-revisao-02.json",
+      "sha256": "b870c0ee2d9dbd27c5b820af4b401263b022c365e3ea360703d78f37f1c36782"
+    },
+    {
+      "caminho": "docs/pratica/entrega-3-dados-prova/checks.json",
+      "sha256": "ac46bb41a2955c920cf187f0d76ad761e625f1d6b113207261071db568d4fb7f"
+    },
+    {
+      "caminho": "docs/pratica/entrega-3-dados-prova/continuidade-acesso-2026-11-11.md",
+      "sha256": "a5911b0588fde58051bfc4d59d91f1305bb637263c5554f4f5abe32451952d3a"
+    },
+    {
+      "caminho": "docs/pratica/entrega-3-dados-prova/imagens-publicas-20261111.json",
+      "sha256": "96522ad27b8e6a3d8ea0ea024eb98b6fd889fcba892388ef329025d7abeb636a"
+    },
+    {
+      "caminho": "docs/pratica/entrega-3-dados-prova/inventario-consulta-20261111-072047.json",
+      "sha256": "8074a5f4336602c7823cc560878009cc9d328289dd09c0346632738391bcaafd"
+    },
+    {
+      "caminho": "docs/pratica/entrega-3-dados-prova/inventario-consulta-20261111.json",
+      "sha256": "d94092ec633e24baa42f8b11207d08640e325d121a1a39bbb7c179aa267eda29"
+    },
+    {
+      "caminho": "docs/pratica/entrega-3-dados-prova/inventario-painel-2026-11-11.md",
+      "sha256": "3a613adfb0abc8da744dcb9c6d0a10b4dc38ba66606fc36b84c5a163f42bd3c5"
+    },
+    {
+      "caminho": "docs/pratica/entrega-3-dados-prova/README.md",
+      "sha256": "e724e1d2544b148be7e829281aab9ee3c523b725d386903eade0e8cdbf87cff7"
+    },
+    {
+      "caminho": "docs/pratica/entrega-3-dados-prova/revisao-02.md",
+      "sha256": "3f55a19a29194986a1121b8969383c3f92500a9671fab3fd5f72721345abb5e5"
+    },
+    {
+      "caminho": "docs/pratica/entrega-3-dados-prova/revisao-inicial.md",
+      "sha256": "d60e33a85eb4132c6b0130edf106ac1d2118a1dcc63350a45f5b7c138ab69e1b"
+    },
+    {
+      "caminho": "docs/pratica/entrega-3-dados-prova/storage-politicas-20261111.json",
+      "sha256": "b4d4e7d8d12f5f4a98ee36ee8bdffff8b34cceb7cce2a4ff890e0b5345b2679e"
+    },
+    {
+      "caminho": "docs/pratica/entrega-4-interface-prova/catalogo-producao-20261111.png",
+      "sha256": "00377d72ce5409d0a2f3473ea8395a2e390f06eeed71b6b30724538505408da0"
+    },
+    {
+      "caminho": "docs/pratica/entrega-4-interface-prova/jornada-automatizada-rodada-01.json",
+      "sha256": "8be9cc1e6b2093884647a2732a288215e29f9ca3a1abeafb2fe78b57b3a43e50"
+    },
+    {
+      "caminho": "docs/pratica/entrega-4-interface-prova/jornada-automatizada-rodada-02.json",
+      "sha256": "c6c15b13e91b9a5a23055c80bc469afc97936161f1aace232f25859fa8cf0711"
+    },
+    {
+      "caminho": "docs/pratica/entrega-4-interface-prova/jornada-automatizada-rodada-03.json",
+      "sha256": "af050f581d7d0646f38d085844ded254a915ec64ce6e488ba1ebba6d374872bc"
+    },
+    {
+      "caminho": "docs/pratica/entrega-4-interface-prova/jornada-local-20261111.json",
+      "sha256": "870345c442595a44ff5368c2cc27f01485dd23a8cf9f8d1e28dd00958a3fccbd"
+    },
+    {
+      "caminho": "docs/pratica/entrega-4-interface-prova/jornada-producao-20261111.json",
+      "sha256": "f953ce5cd3fe748083307e5c7fe8e9d25ebf61aae3865d227e9d65575ce922f3"
+    },
+    {
+      "caminho": "docs/pratica/historico/ENTREGA-antes-do-fechamento-20261111.md",
+      "sha256": "3338ff8637e8c200535452eced9cdb620297a38319f861e0eec2246d39edbde4"
+    },
+    {
+      "caminho": "docs/pratica/planejamento/02-skill-imagens/plan.md",
+      "sha256": "6ba923a59bdeb296800470649197b72340d2276c71c8eeec2c942009616063ca"
+    },
+    {
+      "caminho": "docs/pratica/planejamento/02-skill-imagens/tasks.md",
+      "sha256": "63964a92c9847d621a3c540fa2f685492018e435f6c56ccba1b1b791214ec872"
+    },
+    {
+      "caminho": "docs/pratica/planejamento/05-entrega-final/plan.md",
+      "sha256": "8b4543f1e4a63e8f72f17d1b568d78caacbb65efc60d32a69cb49ef2f5a43a3a"
+    },
+    {
+      "caminho": "docs/pratica/planejamento/05-entrega-final/tasks.md",
+      "sha256": "9942d6423653febdf3faee685a83875eb26b5fe619684245b463012ec4f413a5"
+    },
+    {
+      "caminho": "docs/pratica/planejamento/decisoes-pendentes.md",
+      "sha256": "f3a82c2aef5740ae018b6a6c7bd91d1671942270c997e79f2721b5010da98611"
+    },
+    {
+      "caminho": "docs/pratica/planejamento/fechamento-3-4-5-proposta.md",
+      "sha256": "b5f993365027087a3e5f0666f403fe3a01d269f7d5f43b328037ac4f70ed900d"
+    },
+    {
+      "caminho": "docs/pratica/planejamento/README.md",
+      "sha256": "aa3b31b8207bc6b9ad60185033fc6d6cdaa7635f4d889d7cf45cc45eff91e11a"
+    },
+    {
+      "caminho": "docs/pratica/revisoes-finais/E3-final-rodada-01-20261111/execucao.lock",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "caminho": "docs/pratica/revisoes-finais/E3-final-rodada-01-20261111/pacote.json",
+      "sha256": "6c11af412e6c0d84848fad01005ccae6ab454121657d417d18ded2869166fa9f"
+    },
+    {
+      "caminho": "docs/pratica/revisoes-finais/E3-final-rodada-01-20261111/relatorio.md",
+      "sha256": "53c817d42169d580d9b1e495a670564bd094c4181c749f7a6a52cfd5441afc0e"
+    },
+    {
+      "caminho": "docs/pratica/revisoes-finais/E3-final-rodada-01-20261111/sessao.jsonl",
+      "sha256": "0fe4f95018e673321a3576d3495add1f2f73874c1ae74b1df5666c0cb6b2e8d6"
+    },
+    {
+      "caminho": "docs/pratica/revisoes-finais/E3-final-rodada-02-20261111/execucao.lock",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "caminho": "docs/pratica/revisoes-finais/E3-final-rodada-02-20261111/pacote.json",
+      "sha256": "309de8476a26d2b0127faebcfbc310bd9d32cb1bda8316bf580755fb069cefbc"
+    },
+    {
+      "caminho": "docs/pratica/revisoes-finais/E3-final-rodada-02-20261111/relatorio.md",
+      "sha256": "a7896be8ade54dca0aa6505c7fec1ad40a07f15630978d55009793a1c19b286c"
+    },
+    {
+      "caminho": "docs/pratica/revisoes-finais/E3-final-rodada-02-20261111/sessao.jsonl",
+      "sha256": "e70f7bb83bfa70b46ed126e58a489bda24cbe9ef4b15f5ccbafba95160a819a0"
+    },
+    {
+      "caminho": "docs/pratica/revisoes-finais/E3-final-rodada-03-20261111/execucao.lock",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "caminho": "docs/pratica/revisoes-finais/E3-final-rodada-03-20261111/pacote.json",
+      "sha256": "c592f21f78a345a5189cafe3ef952b6dcb8e903dbf69593fa90708c61a5bedb6"
+    },
+    {
+      "caminho": "docs/pratica/revisoes-finais/E3-final-rodada-03-20261111/relatorio.md",
+      "sha256": "a9eb28867db4edea7dc7f9855dd13fa43cee79563826ad1b5aab8222ed7878a4"
+    },
+    {
+      "caminho": "docs/pratica/revisoes-finais/E3-final-rodada-03-20261111/sessao.jsonl",
+      "sha256": "c9fde8684e956826bb559edb0cd78dbe841a91621c72303369e46dd7fb9166e2"
+    },
+    {
+      "caminho": "docs/pratica/revisoes-finais/E3-final-rodada-04-20261111/execucao.lock",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "caminho": "docs/pratica/revisoes-finais/E3-final-rodada-04-20261111/pacote.json",
+      "sha256": "c67316c5930b9cca14fdb41dfffe4d1bfaeec7e68240689c623feebc3d5e7e08"
+    },
+    {
+      "caminho": "docs/pratica/revisoes-finais/E3-final-rodada-04-20261111/relatorio.md",
+      "sha256": "a0f1ecc26388eb146c0b52a27ef198c340f637c6094e4bf46ba0542b0d5b4e55"
+    },
+    {
+      "caminho": "docs/pratica/revisoes-finais/E3-final-rodada-04-20261111/sessao.jsonl",
+      "sha256": "031701d8af7082468b1b9c9ca1644273355adafbfd3b0a4902c299a8012f109e"
+    },
+    {
+      "caminho": "docs/pratica/revisoes-finais/E4-final-rodada-01-20261111/execucao.lock",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "caminho": "docs/pratica/revisoes-finais/E4-final-rodada-01-20261111/pacote.json",
+      "sha256": "be27f01c09c401244b33af7c3acbb641b4d863f782f9d336786bfed768513d35"
+    },
+    {
+      "caminho": "docs/pratica/revisoes-finais/E4-final-rodada-01-20261111/relatorio.md",
+      "sha256": "2d9db62fa32d7e5b846131265a814d52f3a5148039e9a2f0d235cf7a1a4aa946"
+    },
+    {
+      "caminho": "docs/pratica/revisoes-finais/E4-final-rodada-01-20261111/sessao.jsonl",
+      "sha256": "f520c97880fd1dc31a298ddabafea0ac943d2963a289361251a2b03fa8e4e4ae"
+    },
+    {
+      "caminho": "docs/pratica/revisoes-finais/E4-final-rodada-02-20261111/execucao.lock",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "caminho": "docs/pratica/revisoes-finais/E4-final-rodada-02-20261111/pacote.json",
+      "sha256": "02deffa20b6fcc52bfceb39ac6dc2cbdc8dc8549d79feb5e93f8ecfba701b2b9"
+    },
+    {
+      "caminho": "docs/pratica/revisoes-finais/E4-final-rodada-02-20261111/relatorio.md",
+      "sha256": "e0fcce8cce13b80216fbb163b31328d177023440c3afda47a58c7436c75879bc"
+    },
+    {
+      "caminho": "docs/pratica/revisoes-finais/E4-final-rodada-02-20261111/sessao.jsonl",
+      "sha256": "eb49f5ba206f862b4b497a87c1f1b9d9930c3c277a2300b06c77a685c3b15fa8"
+    },
+    {
+      "caminho": "docs/pratica/verificador-gatilho-e1.md",
+      "sha256": "e9cdaa46f41f7858443f8a1e4aa94d92d1d10a7bd573adf79f010ad23469c214"
+    },
+    {
+      "caminho": "docs/pratica/verificador-sessao-limpa-01.md",
+      "sha256": "0702f0b5cdf4226bfaafa28aedb4d5d374daa3722dd99216771b445996fbb264"
+    },
+    {
+      "caminho": "docs/pratica/verificador-sessao-limpa-02.md",
+      "sha256": "727f70b30aa40312e09c2da81bfbccfe675994f589cece7076b0dbfde41c8e32"
+    },
+    {
+      "caminho": "docs/PRD.md",
+      "sha256": "19921c22b898d319914150c5defa70a09e0993a7a486ff8799dc83ff33c25cc6"
+    },
+    {
+      "caminho": "docs/specs/001-login/plan.md",
+      "sha256": "e63141eda060cc0151df6829a4bb43406ecf7bd3c5b567758be3bb19ae428e61"
+    },
+    {
+      "caminho": "docs/specs/001-login/spec.md",
+      "sha256": "12b0aecdd9b47c4eae5fcce5cbff693e378b5c0842ea9975eb630f3fd190b84a"
+    },
+    {
+      "caminho": "docs/specs/001-login/tasks.md",
+      "sha256": "c736d8cbbedb5e73e9e0a0f2b17d893600dc61bbe076e5fdc06710a937eca61d"
+    },
+    {
+      "caminho": "docs/specs/002-catalogo/plan.md",
+      "sha256": "e4868f89102308526556171b0693240a5b80da4029721e00ceb2cf93bb0462b7"
+    },
+    {
+      "caminho": "docs/specs/002-catalogo/spec.md",
+      "sha256": "090abfa4a342bbdb8015fb1f4e10b0c5816e4e60f2381c53e0072a25d3c9057f"
+    },
+    {
+      "caminho": "docs/specs/002-catalogo/tasks.md",
+      "sha256": "a1348b31452acfd9966bb89a8616d21fefd8d8cc27be35bdfad52e42b2151da8"
+    },
+    {
+      "caminho": "docs/specs/003-banco-de-dados/plan.md",
+      "sha256": "cd22af3f18250fcc2fe9fb6aed046deeaedc2fef23798f55d86a848c1f72980b"
+    },
+    {
+      "caminho": "docs/specs/003-banco-de-dados/spec.md",
+      "sha256": "769b2ad967eddc6e499d17ec2b4de66f9333699ee0d259f9d86c963c5bd78bc2"
+    },
+    {
+      "caminho": "docs/specs/003-banco-de-dados/tasks.md",
+      "sha256": "981f41417ee0574da303061df65b7fdbbfaa377ec1c107e0b44d9bf134fa574a"
+    },
+    {
+      "caminho": "docs/specs/004-integracao-front-back/plan.md",
+      "sha256": "71174e4ce47aa81c8ee51c0010a2ea6068efb299f90eb240f30e6de4299ef08e"
+    },
+    {
+      "caminho": "docs/specs/004-integracao-front-back/spec.md",
+      "sha256": "181187ad21d4cdad9737850404de4921419c101245680babc2eeeab2361ad85a"
+    },
+    {
+      "caminho": "docs/specs/004-integracao-front-back/tasks.md",
+      "sha256": "640aa2a288d94f2a10f06c44ca963245b1b415f24fc6b62516259473fe477c10"
+    },
+    {
+      "caminho": "docs/specs/005-deploy-vercel/plan.md",
+      "sha256": "944d45bb12572017d888e1fe255ff9265266b7072d574f225ddcf03514b3118d"
+    },
+    {
+      "caminho": "docs/specs/005-deploy-vercel/spec.md",
+      "sha256": "42323586de0ccdfed69c1c02844f3cd0e312592b79d59059c02a98de044f9e25"
+    },
+    {
+      "caminho": "docs/specs/005-deploy-vercel/tasks.md",
+      "sha256": "f7ea954f44db1e3dc8f36d0f9600d4f25eb0ee9ff720cc79821ce3c88f09db9c"
+    },
+    {
+      "caminho": "docs/specs/006-dados-iniciais/plan.md",
+      "sha256": "d3d631d9bc7a878ec1e609c0d7706d6a3842890879671dfdc909afea8ffbadfe"
+    },
+    {
+      "caminho": "docs/specs/006-dados-iniciais/proposta-tecnica.md",
+      "sha256": "169d5ba25df05d25022c4a6db315535bc6fc95c8e3c751ce68366ba794137272"
+    },
+    {
+      "caminho": "docs/specs/006-dados-iniciais/spec.md",
+      "sha256": "ea546a84393ecad9b8634fe97999a50e010a44b591b880d8f33b699767d506ea"
+    },
+    {
+      "caminho": "docs/specs/006-dados-iniciais/tasks.md",
+      "sha256": "c206bbc117932c4fc9e36d136e88770a3a41c540fe6efe1b90b780c93c9e9548"
+    },
+    {
+      "caminho": "docs/specs/007-solicitar-emprestimo/plan.md",
+      "sha256": "aa9af3420dd4376c6e5702cb23f757c95dc928cbae1c2d2d0420d78c6bba84c7"
+    },
+    {
+      "caminho": "docs/specs/007-solicitar-emprestimo/spec.md",
+      "sha256": "e8b0a26840b17dfaf6747b0b85656ff2a5f8bc6a8c2ba74eb3380c52e6249136"
+    },
+    {
+      "caminho": "docs/specs/007-solicitar-emprestimo/tasks.md",
+      "sha256": "4c90c31646886259ef32145e80666fdd9b86e8006fb94b175349041d48ab22fd"
+    },
+    {
+      "caminho": "docs/specs/README.md",
+      "sha256": "56837a23d53d208ff9c3d1053fafb6435592f33452a3e3491bec542e91a5b4ab"
+    },
+    {
+      "caminho": "docs/VALIDACAO.md",
+      "sha256": "5fb9b6681ce969bfccbc590ad20e0bea57bb36b1cc41b2facfca6bc921d39807"
+    },
+    {
+      "caminho": "docs/VERIFICACAO-SPEC-004.md",
+      "sha256": "d491d56eedf1b45c02545bea734c62348f57f7323b3e8386a7c8074e8cf2ed63"
+    },
+    {
+      "caminho": "agents/conferir-executor-e1.mjs",
+      "sha256": "548696ffe6a6c6211daa72354a994aa75bff7c111dee87cfc1da432f509316d5"
+    },
+    {
+      "caminho": "agents/conferir-mudancas-autorizadas.ps1",
+      "sha256": "2268f70e8853549a4c841bdca36e2fd83c73b5a843f7990867e562f62853c014"
+    },
+    {
+      "caminho": "agents/conferir-primeira-entrega.ps1",
+      "sha256": "7f9fabcf48c19fa63301b68a5c34ce564bd250e8c1a68b0f9bd488ebe9b9f8b8"
+    },
+    {
+      "caminho": "agents/conferir-prova-e1.mjs",
+      "sha256": "6998edd01b6087ebdb168b7b55a0a3a3d2bd92b90e1e41b6aacbc6487e12f290"
+    },
+    {
+      "caminho": "agents/conferir-publicacao.mjs",
+      "sha256": "16ed22d0fe1e2120781962c31b369907e70139e0248f289d46dbd6a8e78a3ef6"
+    },
+    {
+      "caminho": "agents/conferir-revisao-e1.mjs",
+      "sha256": "b116e380ef4e70b207bf40ec3adeb2f0092669cf9bdad332fd084f28d4b6cd98"
+    },
+    {
+      "caminho": "agents/exportar-entrega.mjs",
+      "sha256": "5280a5c56458e52bd89dbe810a92f26a3a89ad70a4a16b3f71316edfc00f9eed"
+    },
+    {
+      "caminho": "agents/preparar-candidatas-e3.ts",
+      "sha256": "009aee189c59670f6be80d5bb0e3c3ef48138d7f0751d4f7522934609fd6933e"
+    },
+    {
+      "caminho": "agents/preparar-material-escolhido-e3.ts",
+      "sha256": "d7d672f402c7ffcd7fe8d2d166b9d17ce2b45662f14fe1c03cb9b8302bbf3d9f"
+    },
+    {
+      "caminho": "agents/preparar-prova-e1.mjs",
+      "sha256": "e92c1988051f11a8ed9df798610f12eacc29ffc9c19951e9f2223855f293b415"
+    },
+    {
+      "caminho": "agents/preparar-revisao-final.mjs",
+      "sha256": "176c9cf27a767faa6896ae482404cb27a521c93c093b7ba5daf0dcb9a30399af"
+    },
+    {
+      "caminho": "agents/rodar-verificador.mjs",
+      "sha256": "719b109abc2cb9a82d95c373c71f0c3781e43df98a4ee9ff31b8d1264fda3d74"
+    },
+    {
+      "caminho": "agents/sincronizar-verificador.mjs",
+      "sha256": "441eff3a7eaac1afd164c70264026ed5acb57ab5d8ba54b4e997b22fe9f48385"
+    },
+    {
+      "caminho": "agents/validar-pacote.mjs",
+      "sha256": "82c2ecd843297e0927716466e1e5be24555d8ebcc5c8e8850b264c548bf0ef1d"
+    },
+    {
+      "caminho": "agents/validar-skill-local.mjs",
+      "sha256": "2455066a53f0dfe8e178abf0f1d334dc1a3a311fef34be405e69a85e5dff76f6"
+    },
+    {
+      "caminho": "agents/validar-veredito.mjs",
+      "sha256": "0c8be5369c4406dfcb62a4ffc4a794a0df9eb606a6938fc7df27e13abbd56c22"
+    },
+    {
+      "caminho": "agents/verificador-spec-pratica.md",
+      "sha256": "39b9052654081c418bae2e16c8be3401f69a0f6563ece6fc4e9854d82fe9c02e"
+    },
+    {
+      "caminho": "agents/verificador-spec.md",
+      "sha256": "6f64661c31925c3e7f97d25f9d92118518a7d7cfb4395ffafd08d7253e7581c4"
+    },
+    {
+      "caminho": "skills/imagens-equipamentos/.gitignore",
+      "sha256": "bf9f4746181579a462636afcea837960d80b574ed354a82051ee7c43b2c61741"
+    },
+    {
+      "caminho": "skills/imagens-equipamentos/agents/openai.yaml",
+      "sha256": "7dff66aa7927cf3bd10b78f0099fcdeec1b1ea3157282d9def0733f5e69b799a"
+    },
+    {
+      "caminho": "skills/imagens-equipamentos/package-lock.json",
+      "sha256": "5cfedf9bf19c40d404573e4b69ecec2f8dc24b1a9c52a21bc4574c05b5068028"
+    },
+    {
+      "caminho": "skills/imagens-equipamentos/package.json",
+      "sha256": "84cf9baf0ac6438f18cb944586e8ca1a93a4633d8331526b90b144b516ebbf04"
+    },
+    {
+      "caminho": "skills/imagens-equipamentos/references/contrato.md",
+      "sha256": "91991344e7b6a867c12fea706f280fbcf2cc62dc3e143b3829d64ef516b201d4"
+    },
+    {
+      "caminho": "skills/imagens-equipamentos/references/operacao.md",
+      "sha256": "1fb0c9ee97b06851f335c1113e5a967e8edebb1ca49d3de906165bad4059df44"
+    },
+    {
+      "caminho": "skills/imagens-equipamentos/references/revisao-visual.md",
+      "sha256": "050e0de170922ecdcf2a45ff88784357984953134b7adae693293088c79126ed"
+    },
+    {
+      "caminho": "skills/imagens-equipamentos/scripts/buscar.ps1",
+      "sha256": "050485475601a21ecec454610336019263b511e7dab64c18ff79bd41483086f2"
+    },
+    {
+      "caminho": "skills/imagens-equipamentos/scripts/cli.ts",
+      "sha256": "e96ab5d63e7d736e48c5f1f07b9782496b629b4111843ae77dc712fa948bdea2"
+    },
+    {
+      "caminho": "skills/imagens-equipamentos/scripts/pipeline.ts",
+      "sha256": "b050d6d1284970e5021ccb6b77dc5ed294b23883cc3f6496960c3b86f0cb73c4"
+    },
+    {
+      "caminho": "skills/imagens-equipamentos/SKILL.md",
+      "sha256": "afc0c6af19c42656bdcfd9f19789d41cb149593807dd373af0824ec033e2003e"
+    },
+    {
+      "caminho": "skills/imagens-equipamentos/tests/jest.config.cjs",
+      "sha256": "cea8b0d7d8976c3dc1cc7518c861b1547abb379d89e39691588a45cb97ebb3bd"
+    },
+    {
+      "caminho": "skills/imagens-equipamentos/tests/pipeline.spec.ts",
+      "sha256": "18561b510ea322099c4192633b9da41aa3ec7829c3fd973403724055e766a800"
+    },
+    {
+      "caminho": "skills/imagens-equipamentos/tsconfig.json",
+      "sha256": "862c743c55aacc07d3bcb891062150ca8be02c2efcf2c3454a97f83e7eb0de71"
+    },
+    {
+      "caminho": ".codex/agents/verificador-spec-pratica.toml",
+      "sha256": "41c875536e2a9b0e2d169b6044ceb588dd7407c834b8c3a00eedc42bd4875688"
+    }
+  ]
+}

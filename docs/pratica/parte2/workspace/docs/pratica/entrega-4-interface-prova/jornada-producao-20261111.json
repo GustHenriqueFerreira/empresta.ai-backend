@@ -1,0 +1,196 @@
+{
+  "executor": "principal via CUA, sob autorização específica",
+  "inicio": "2026-11-11T09:02:58.466Z",
+  "site": "https://empresta-ai-frontend.vercel.app/",
+  "conta": "teste.entrega@empresta-ai-frontend.vercel.app",
+  "producao": true,
+  "casos": [
+    {
+      "nome": "EM-CA-01 EM-CA-02: catálogo real tem 12 imagens e links Pixabay",
+      "passou": true,
+      "fotos": [
+        {
+          "alt": "Imagem ilustrativa de referência para Notebook 14 polegadas",
+          "altura": 600,
+          "largura": 800,
+          "src": "https://mvoswngmnsfxcecucrys.supabase.co/storage/v1/object/public/equipamentos-pratica/pratica-2026/TI-0001/8d2cd530a296d768682090bce979a6b2c1fc604a7e4a92171689cf4b47b1da23.png"
+        },
+        {
+          "alt": "Imagem ilustrativa de referência para Notebook 15 polegadas",
+          "altura": 600,
+          "largura": 800,
+          "src": "https://mvoswngmnsfxcecucrys.supabase.co/storage/v1/object/public/equipamentos-pratica/pratica-2026/TI-0002/42c918f73f825c5de8147195aabdadaddd2bb541ec563daa8e86d02f85e33dd0.png"
+        },
+        {
+          "alt": "Imagem ilustrativa de referência para Notebook 13 polegadas",
+          "altura": 600,
+          "largura": 800,
+          "src": "https://mvoswngmnsfxcecucrys.supabase.co/storage/v1/object/public/equipamentos-pratica/pratica-2026/TI-0003/a6535d75c523dd47ae99a34cbd243aa6b9fb94f4a6546a6e8e9f94df2a758959.png"
+        },
+        {
+          "alt": "Imagem ilustrativa de referência para Notebook 15 polegadas",
+          "altura": 600,
+          "largura": 800,
+          "src": "https://mvoswngmnsfxcecucrys.supabase.co/storage/v1/object/public/equipamentos-pratica/pratica-2026/TI-0004/72a80625f07b8c57b04148196d6a3854d97e57abc76aadf18b616947d4848dda.png"
+        },
+        {
+          "alt": "Imagem ilustrativa de referência para Monitor 24 polegadas",
+          "altura": 600,
+          "largura": 800,
+          "src": "https://mvoswngmnsfxcecucrys.supabase.co/storage/v1/object/public/equipamentos-pratica/pratica-2026/TI-0005/fa17572be650ed9cb141c57b85be8402a1a2885b90496e94f09c5e9966b9acea.png"
+        },
+        {
+          "alt": "Imagem ilustrativa de referência para Monitor 27 polegadas",
+          "altura": 600,
+          "largura": 800,
+          "src": "https://mvoswngmnsfxcecucrys.supabase.co/storage/v1/object/public/equipamentos-pratica/pratica-2026/TI-0006/8e748eea82257a5e37535abcbbb2e492c6942847702e68b131936468b0e4a93e.png"
+        },
+        {
+          "alt": "Imagem ilustrativa de referência para Monitor 22 polegadas",
+          "altura": 600,
+          "largura": 800,
+          "src": "https://mvoswngmnsfxcecucrys.supabase.co/storage/v1/object/public/equipamentos-pratica/pratica-2026/TI-0007/89ec6e037dc76823a8ddb3abaaa935dc5b1700d901279718fbad8856398fb9dd.png"
+        },
+        {
+          "alt": "Imagem ilustrativa de referência para Cabo HDMI 2 m",
+          "altura": 600,
+          "largura": 800,
+          "src": "https://mvoswngmnsfxcecucrys.supabase.co/storage/v1/object/public/equipamentos-pratica/pratica-2026/TI-0008/073d7dfd76072962b7ea402f9c40dcb15e3241a735bc7192bd5da1b55385be54.png"
+        },
+        {
+          "alt": "Imagem ilustrativa de referência para Cabo USB-C 1 m",
+          "altura": 0,
+          "largura": 0,
+          "src": "https://mvoswngmnsfxcecucrys.supabase.co/storage/v1/object/public/equipamentos-pratica/pratica-2026/TI-0009/32349d6e655d7f00eeb9c90c392e7149c0a7ea7cbc4a78ef2adb7f2db15a1b48.png"
+        },
+        {
+          "alt": "Imagem ilustrativa de referência para Cabo de rede 3 m",
+          "altura": 0,
+          "largura": 0,
+          "src": "https://mvoswngmnsfxcecucrys.supabase.co/storage/v1/object/public/equipamentos-pratica/pratica-2026/TI-0010/b2c439e3d1dd3a6f48347ac46e33363da77b0baa0eb5da5abfc7f757ccac0d6f.png"
+        },
+        {
+          "alt": "Imagem ilustrativa de referência para Webcam Full HD",
+          "altura": 0,
+          "largura": 0,
+          "src": "https://mvoswngmnsfxcecucrys.supabase.co/storage/v1/object/public/equipamentos-pratica/pratica-2026/TI-0011/d9a83b9d78ea8762c6796bfda59e57df95ab356a904a22735a4fa7b7f27f7181.png"
+        },
+        {
+          "alt": "Imagem ilustrativa de referência para Câmera compacta",
+          "altura": 0,
+          "largura": 0,
+          "src": "https://mvoswngmnsfxcecucrys.supabase.co/storage/v1/object/public/equipamentos-pratica/pratica-2026/TI-0012/e478500040d5ef972e6a7ae96d4cadcd5f81b78638da80a394000429a8b07073.png"
+        }
+      ]
+    },
+    {
+      "nome": "EM-CA-11: login real na conta separada abre catálogo autenticado",
+      "passou": true
+    },
+    {
+      "nome": "EM-CA-09 EM-CA-11: conta de teste inicia sem empréstimos",
+      "passou": true
+    },
+    {
+      "nome": "EM-CA-05: confirmação real informa 25/11/2026, quatorze dias corridos após 11/11/2026",
+      "passou": true
+    },
+    {
+      "nome": "EM-CA-03 EM-CA-11: solicitação real torna TI-0001 emprestado e identifica dono",
+      "passou": true
+    },
+    {
+      "nome": "EM-CA-05 EM-CA-09 EM-CA-11: Meus empréstimos mostra só o item solicitado e a data correta",
+      "passou": true,
+      "linha": "Notebook 14 polegadas\nTI-0001\nRETIRADA\n11/11/2026\nDEVOLVER ATÉ\n25/11/2026\nEm dia\nDevolver"
+    },
+    {
+      "nome": "EM-CA-11: devolução real deixa zero abertos na conta de teste, sem excluir histórico",
+      "passou": true
+    },
+    {
+      "nome": "EM-CA-01 EM-CA-02 EM-CA-11: doze fotos reais carregadas 800x600 e catálogo recuperado após devolução",
+      "passou": true,
+      "fotos": [
+        {
+          "alt": "Imagem ilustrativa de referência para Notebook 14 polegadas",
+          "altura": 600,
+          "largura": 800,
+          "src": "https://mvoswngmnsfxcecucrys.supabase.co/storage/v1/object/public/equipamentos-pratica/pratica-2026/TI-0001/8d2cd530a296d768682090bce979a6b2c1fc604a7e4a92171689cf4b47b1da23.png"
+        },
+        {
+          "alt": "Imagem ilustrativa de referência para Notebook 15 polegadas",
+          "altura": 600,
+          "largura": 800,
+          "src": "https://mvoswngmnsfxcecucrys.supabase.co/storage/v1/object/public/equipamentos-pratica/pratica-2026/TI-0002/42c918f73f825c5de8147195aabdadaddd2bb541ec563daa8e86d02f85e33dd0.png"
+        },
+        {
+          "alt": "Imagem ilustrativa de referência para Notebook 13 polegadas",
+          "altura": 600,
+          "largura": 800,
+          "src": "https://mvoswngmnsfxcecucrys.supabase.co/storage/v1/object/public/equipamentos-pratica/pratica-2026/TI-0003/a6535d75c523dd47ae99a34cbd243aa6b9fb94f4a6546a6e8e9f94df2a758959.png"
+        },
+        {
+          "alt": "Imagem ilustrativa de referência para Notebook 15 polegadas",
+          "altura": 600,
+          "largura": 800,
+          "src": "https://mvoswngmnsfxcecucrys.supabase.co/storage/v1/object/public/equipamentos-pratica/pratica-2026/TI-0004/72a80625f07b8c57b04148196d6a3854d97e57abc76aadf18b616947d4848dda.png"
+        },
+        {
+          "alt": "Imagem ilustrativa de referência para Monitor 24 polegadas",
+          "altura": 600,
+          "largura": 800,
+          "src": "https://mvoswngmnsfxcecucrys.supabase.co/storage/v1/object/public/equipamentos-pratica/pratica-2026/TI-0005/fa17572be650ed9cb141c57b85be8402a1a2885b90496e94f09c5e9966b9acea.png"
+        },
+        {
+          "alt": "Imagem ilustrativa de referência para Monitor 27 polegadas",
+          "altura": 600,
+          "largura": 800,
+          "src": "https://mvoswngmnsfxcecucrys.supabase.co/storage/v1/object/public/equipamentos-pratica/pratica-2026/TI-0006/8e748eea82257a5e37535abcbbb2e492c6942847702e68b131936468b0e4a93e.png"
+        },
+        {
+          "alt": "Imagem ilustrativa de referência para Monitor 22 polegadas",
+          "altura": 600,
+          "largura": 800,
+          "src": "https://mvoswngmnsfxcecucrys.supabase.co/storage/v1/object/public/equipamentos-pratica/pratica-2026/TI-0007/89ec6e037dc76823a8ddb3abaaa935dc5b1700d901279718fbad8856398fb9dd.png"
+        },
+        {
+          "alt": "Imagem ilustrativa de referência para Cabo HDMI 2 m",
+          "altura": 600,
+          "largura": 800,
+          "src": "https://mvoswngmnsfxcecucrys.supabase.co/storage/v1/object/public/equipamentos-pratica/pratica-2026/TI-0008/073d7dfd76072962b7ea402f9c40dcb15e3241a735bc7192bd5da1b55385be54.png"
+        },
+        {
+          "alt": "Imagem ilustrativa de referência para Cabo USB-C 1 m",
+          "altura": 600,
+          "largura": 800,
+          "src": "https://mvoswngmnsfxcecucrys.supabase.co/storage/v1/object/public/equipamentos-pratica/pratica-2026/TI-0009/32349d6e655d7f00eeb9c90c392e7149c0a7ea7cbc4a78ef2adb7f2db15a1b48.png"
+        },
+        {
+          "alt": "Imagem ilustrativa de referência para Cabo de rede 3 m",
+          "altura": 600,
+          "largura": 800,
+          "src": "https://mvoswngmnsfxcecucrys.supabase.co/storage/v1/object/public/equipamentos-pratica/pratica-2026/TI-0010/b2c439e3d1dd3a6f48347ac46e33363da77b0baa0eb5da5abfc7f757ccac0d6f.png"
+        },
+        {
+          "alt": "Imagem ilustrativa de referência para Webcam Full HD",
+          "altura": 600,
+          "largura": 800,
+          "src": "https://mvoswngmnsfxcecucrys.supabase.co/storage/v1/object/public/equipamentos-pratica/pratica-2026/TI-0011/d9a83b9d78ea8762c6796bfda59e57df95ab356a904a22735a4fa7b7f27f7181.png"
+        },
+        {
+          "alt": "Imagem ilustrativa de referência para Câmera compacta",
+          "altura": 600,
+          "largura": 800,
+          "src": "https://mvoswngmnsfxcecucrys.supabase.co/storage/v1/object/public/equipamentos-pratica/pratica-2026/TI-0012/e478500040d5ef972e6a7ae96d4cadcd5f81b78638da80a394000429a8b07073.png"
+        }
+      ]
+    }
+  ],
+  "fim": "2026-11-11T09:09:00.846Z",
+  "limitacoes": [
+    "Não utiliza conta do professor, dispensada pelo responsável",
+    "Fotos ilustrativas escolhidas com ressalvas; não aprovação visual original",
+    "Concorrência/limites/atrasos foram testados no PostgreSQL isolado, não forçados em produção"
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "registradoEm": "2026-11-11T05:17:19.251Z",
+  "origem": "cache validado gerado pelo script após entrada humana privada",
+  "patrimonio": "TI-0001",
+  "candidatas": [
+    {
+      "id": 7188564,
+      "pagina": "https://pixabay.com/photos/coffee-winter-cafe-caffeine-cup-7188564/",
+      "autor": "bohacekmarek"
+    },
+    {
+      "id": 4532322,
+      "pagina": "https://pixabay.com/photos/workplace-office-business-table-4532322/",
+      "autor": "MaxxGirr"
+    },
+    {
+      "id": 4532323,
+      "pagina": "https://pixabay.com/photos/workplace-business-office-computer-4532323/",
+      "autor": "MaxxGirr"
+    },
+    {
+      "id": 1868502,
+      "pagina": "https://pixabay.com/photos/blank-frame-desk-simple-mockup-1868502/",
+      "autor": "Pexels"
+    },
+    {
+      "id": 2982270,
+      "pagina": "https://pixabay.com/photos/computer-laptop-work-place-mouse-2982270/",
+      "autor": "ClickerHappy"
+    },
+    {
+      "id": 1483974,
+      "pagina": "https://pixabay.com/photos/laptop-workstation-browsing-tablet-1483974/",
+      "autor": "Monoar_CGI_Artist"
+    },
+    {
+      "id": 620817,
+      "pagina": "https://pixabay.com/photos/office-notes-notepad-entrepreneur-620817/",
+      "autor": "Firmbee"
+    },
+    {
+      "id": 1185626,
+      "pagina": "https://pixabay.com/photos/computer-pc-workplace-home-office-1185626/",
+      "autor": "janeb13"
+    },
+    {
+      "id": 2325627,
+      "pagina": "https://pixabay.com/photos/desk-office-space-workspace-tidy-2325627/",
+      "autor": "theglassdesk"
+    },
+    {
+      "id": 4484282,
+      "pagina": "https://pixabay.com/photos/computer-office-laptop-desk-4484282/",
+      "autor": "annmariephotography"
+    },
+    {
+      "id": 2838921,
+      "pagina": "https://pixabay.com/photos/laptop-mockup-graphics-tablet-2838921/",
+      "autor": "lukasbieri"
+    },
+    {
+      "id": 932926,
+      "pagina": "https://pixabay.com/photos/office-work-desk-computer-932926/",
+      "autor": "tookapic"
+    },
+    {
+      "id": 1282241,
+      "pagina": "https://pixabay.com/photos/apple-smartphone-desk-laptop-1282241/",
+      "autor": "Pexels"
+    },
+    {
+      "id": 2178566,
+      "pagina": "https://pixabay.com/photos/hands-laptop-working-businessman-2178566/",
+      "autor": "Pexels"
+    },
+    {
+      "id": 849825,
+      "pagina": "https://pixabay.com/photos/student-typing-keyboard-text-849825/",
+      "autor": "StartupStockPhotos"
+    },
+    {
+      "id": 5517762,
+      "pagina": "https://pixabay.com/photos/workplace-workspace-home-office-5517762/",
+      "autor": "ricardorv30"
+    },
+    {
+      "id": 1852901,
+      "pagina": "https://pixabay.com/photos/iphone-laptop-macbook-pro-notebook-1852901/",
+      "autor": "Pexels"
+    },
+    {
+      "id": 614213,
+      "pagina": "https://pixabay.com/photos/laptop-iphone-workspace-hands-614213/",
+      "autor": "Firmbee"
+    },
+    {
+      "id": 593341,
+      "pagina": "https://pixabay.com/photos/startup-start-up-people-593341/",
+      "autor": "StartupStockPhotos"
+    },
+    {
+      "id": 849822,
+      "pagina": "https://pixabay.com/photos/student-typing-keyboard-text-woman-849822/",
+      "autor": "StartupStockPhotos"
+    }
+  ],
+  "chaveLidaPeloAgente": false,
+  "chavePersistidaPeloPreparador": false,
+  "imagensReaisBaixadasParaTriagem": 1,
+  "aprovacoesHumanas": 0,
+  "entrega2Pronta": false,
+  "fontes": [
+    {
+      "arquivo": "skills/imagens-equipamentos/scripts/cli.ts",
+      "sha256": "e96ab5d63e7d736e48c5f1f07b9782496b629b4111843ae77dc712fa948bdea2"
+    },
+    {
+      "arquivo": "skills/imagens-equipamentos/scripts/buscar.ps1",
+      "sha256": "050485475601a21ecec454610336019263b511e7dab64c18ff79bd41483086f2"
+    }
+  ]
+}

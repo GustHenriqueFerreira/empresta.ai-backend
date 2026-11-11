@@ -8,7 +8,7 @@ import { iniciarIsolado } from './postgres-isolado.mjs'
 const raiz=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..')
 const permitida=path.join(raiz,'db/pratica/entrega-3/pacotes')
 const pacote=path.resolve(raiz,process.argv[2]||'')
-if(!pacote.startsWith(permitida+path.sep))throw new Error('Pacote fora da área de preparo')
+if(pacote!==path.join(raiz,'db/pratica/entrega-3/material')&&!pacote.startsWith(permitida+path.sep))throw new Error('Pacote fora da área de preparo')
 const sql=fs.readFileSync(path.join(pacote,'000-aplicar-pratica.sql'),'utf8')
 const meta=JSON.parse(fs.readFileSync(path.join(pacote,'MATERIAL-PARA-REVISAO.json'),'utf8'))
 assert.equal(createHash('sha256').update(sql).digest('hex'),meta.aplicacaoSqlSha256)

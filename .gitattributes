@@ -1,0 +1,4 @@
+db/pratica/entrega-3/material/*.sql text eol=lf
+db/pratica/entrega-3/material/*.json text eol=lf
+db/pratica/entrega-3/material/**/*.png binary
+docs/pratica/parte2/workspace/** -text

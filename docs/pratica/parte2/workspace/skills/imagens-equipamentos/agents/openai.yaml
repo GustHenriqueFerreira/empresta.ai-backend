@@ -1,0 +1,4 @@
+interface:
+  display_name: "Imagens de equipamentos"
+  short_description: "Prepara fotos Pixabay para o catálogo EMPREST.AI"
+  default_prompt: "Use $imagens-equipamentos para preparar fotos do catálogo com origem rastreável, sem publicar em produção."

@@ -1,0 +1,49 @@
+{
+  "executor": "principal via CUA; asserções automatizadas, não Jest",
+  "inicio": "2026-11-11T09:30:24.592Z",
+  "producao": false,
+  "casos": [
+    {
+      "nome": "EM-CA-10: foto válida carrega e onError apresenta estado indisponível",
+      "passou": true
+    },
+    {
+      "nome": "EM-CA-10: senha incorreta mostra erro sem entrar",
+      "passou": true
+    },
+    {
+      "nome": "EM-CA-10: login e GET lentos mostram carregamento e recuperam catálogo",
+      "passou": true
+    },
+    {
+      "nome": "EM-CA-10: modal mantém foco e duplo clique envia uma única solicitação",
+      "passou": true
+    },
+    {
+      "nome": "EM-CA-05 EM-CA-09: própria lista renderiza equipamento e data recebida",
+      "passou": true
+    },
+    {
+      "nome": "EM-CA-09: outra identidade não renderiza empréstimo da primeira",
+      "passou": true
+    },
+    {
+      "nome": "EM-CA-03 EM-CA-10: resposta perdida após gravação reconcilia GET sem repetir POST",
+      "passou": true
+    },
+    {
+      "nome": "EM-CA-10: erro de GET permite recuperação por Tentar novamente sem novo POST",
+      "passou": true
+    },
+    {
+      "nome": "EM-CA-10: catálogo vazio não inventa equipamentos",
+      "passou": true
+    },
+    {
+      "nome": "EM-CA-10: sessão expirada retorna ao login e remove dados anteriores",
+      "passou": true
+    }
+  ],
+  "fim": "2026-11-11T09:31:13.071Z",
+  "sucesso": true
+}

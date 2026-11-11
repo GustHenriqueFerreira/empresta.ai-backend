@@ -1,0 +1,8 @@
+node agents/conferir-prova-e1.mjs
+9 cenários do gate passaram; cópia isolada restaurada e idêntica ao original.
+node agents/conferir-revisao-e1.mjs
+24 regressões adversariais E1 bloqueadas; rodada real válida preservada.
+3 rodadas novas conferidas (falha de execução, recusa do erro, aprovação da restauração); cópias restauradas.
+Exportação das 6 ferramentas/definições idêntica à fonte da parte 2.
+node agents/conferir-executor-e1.mjs
+11 verificações de pacote/concorrência E1 passaram; nenhuma chamada ao modelo ou serviço remoto.

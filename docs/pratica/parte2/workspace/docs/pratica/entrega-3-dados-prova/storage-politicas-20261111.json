@@ -1,0 +1,35 @@
+{
+  "executor": "principal via SQL Editor, somente leitura",
+  "observadoEm": "2026-11-11T09:06:55.821Z",
+  "criterios": [
+    "DI-CA-03",
+    "DI-CA-06"
+  ],
+  "prova": {
+    "bucket": {
+      "id": "equipamentos-pratica",
+      "public": true,
+      "file_size_limit": 5242880,
+      "allowed_mime_types": [
+        "image/png"
+      ]
+    },
+    "objetos": [
+      "pratica-2026/TI-0001/8d2cd530a296d768682090bce979a6b2c1fc604a7e4a92171689cf4b47b1da23.png",
+      "pratica-2026/TI-0002/42c918f73f825c5de8147195aabdadaddd2bb541ec563daa8e86d02f85e33dd0.png",
+      "pratica-2026/TI-0003/a6535d75c523dd47ae99a34cbd243aa6b9fb94f4a6546a6e8e9f94df2a758959.png",
+      "pratica-2026/TI-0004/72a80625f07b8c57b04148196d6a3854d97e57abc76aadf18b616947d4848dda.png",
+      "pratica-2026/TI-0005/fa17572be650ed9cb141c57b85be8402a1a2885b90496e94f09c5e9966b9acea.png",
+      "pratica-2026/TI-0006/8e748eea82257a5e37535abcbbb2e492c6942847702e68b131936468b0e4a93e.png",
+      "pratica-2026/TI-0007/89ec6e037dc76823a8ddb3abaaa935dc5b1700d901279718fbad8856398fb9dd.png",
+      "pratica-2026/TI-0008/073d7dfd76072962b7ea402f9c40dcb15e3241a735bc7192bd5da1b55385be54.png",
+      "pratica-2026/TI-0009/32349d6e655d7f00eeb9c90c392e7149c0a7ea7cbc4a78ef2adb7f2db15a1b48.png",
+      "pratica-2026/TI-0010/b2c439e3d1dd3a6f48347ac46e33363da77b0baa0eb5da5abfc7f757ccac0d6f.png",
+      "pratica-2026/TI-0011/d9a83b9d78ea8762c6796bfda59e57df95ab356a904a22735a4fa7b7f27f7181.png",
+      "pratica-2026/TI-0012/e478500040d5ef972e6a7ae96d4cadcd5f81b78638da80a394000429a8b07073.png"
+    ],
+    "rlsObjetos": true,
+    "politicasObjetos": []
+  },
+  "resultado": "Apenas os 12 PNGs esperados, bucket público, RLS ativa e nenhuma política liberando escrita a clientes"
+}
