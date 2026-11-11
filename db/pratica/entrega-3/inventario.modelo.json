@@ -1,0 +1,10 @@
+{
+  "versao": 1,
+  "projeto": "PREENCHER_REFERENCIA_PUBLICA_DO_PROJETO",
+  "observadoEm": "PREENCHER_DATA_ISO_DO_INVENTARIO",
+  "aprovadoPor": "PREENCHER_RESPONSAVEL_HUMANO",
+  "destinoConfirmado": false,
+  "catalogoExatoConfirmado": false,
+  "adotarIds": [],
+  "equipamentos": []
+}

@@ -3,6 +3,7 @@ import { Prisma } from '@prisma/client'
 import { DatabaseService } from './database.service'
 import { equipamentoSchema, hojeBrasilia, Identidade, Perfil } from './contracts'
 import { z } from 'zod'
+import { imagemPublica } from './imagens'
 
 @Injectable()
 export class AppService {
@@ -29,8 +30,8 @@ export class AppService {
     return this.db.comoUsuario(usuario, async tx => {
       await this.perfil(tx, usuario)
       // Relação emprestimos é filtrada por RLS; terceiros não são projetados no catálogo.
-      const equipamentos = await tx.equipamento.findMany({ orderBy: { criado_em: 'desc' }, include: { emprestimos: { where: { usuario_id: usuario.id, devolvido_em: null } } } })
-      return equipamentos.map(({ emprestimos, ...item }) => ({ ...item, comigo: emprestimos.length > 0, devolverAte: emprestimos[0]?.devolver_ate.toISOString().slice(0, 10), emAtraso: !!emprestimos[0] && emprestimos[0].devolver_ate.toISOString().slice(0, 10) < hojeBrasilia() }))
+      const equipamentos = await tx.equipamento.findMany({ where: { imagem: { isNot: null } }, orderBy: { patrimonio: 'asc' }, include: { imagem: true, emprestimos: { where: { usuario_id: usuario.id, devolvido_em: null } } } })
+      return equipamentos.map(({ emprestimos, imagem, ...item }) => ({ ...item, imagem: imagemPublica(imagem), comigo: emprestimos.length > 0, devolverAte: emprestimos[0]?.devolver_ate.toISOString().slice(0, 10), emAtraso: !!emprestimos[0] && emprestimos[0].devolver_ate.toISOString().slice(0, 10) < hojeBrasilia() }))
     })
   }
 

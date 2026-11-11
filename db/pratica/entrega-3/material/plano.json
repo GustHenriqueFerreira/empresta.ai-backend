@@ -1,0 +1,303 @@
+{
+  "versao": 1,
+  "projeto": "mvoswngmnsfxcecucrys",
+  "inventariadoEm": "2026-11-11T07:20:47.044303+00:00",
+  "adotarIds": [],
+  "preservarHistorico": true,
+  "observados": [
+    {
+      "id": "c68ffd1b-da24-43a8-8853-0c3b10225997",
+      "patrimonio": "DEMO-001"
+    },
+    {
+      "id": "4ac257b8-1f69-4108-9bbd-cb68f1a21c54",
+      "patrimonio": "DEMO-002"
+    },
+    {
+      "id": "3aa3da00-ba5c-44a2-b0a8-ff3715f3bb6d",
+      "patrimonio": "DEMO-003"
+    },
+    {
+      "id": "05e0ed31-bab6-418d-b1ac-9b1a5415c958",
+      "patrimonio": "DEMO-004"
+    }
+  ],
+  "equipamentos": [
+    {
+      "patrimonio": "TI-0001",
+      "nome": "Notebook 14 polegadas",
+      "categoria": "Notebook",
+      "situacao": "disponivel",
+      "imagem": {
+        "bucket": "equipamentos-pratica",
+        "caminho": "pratica-2026/TI-0001/8d2cd530a296d768682090bce979a6b2c1fc604a7e4a92171689cf4b47b1da23.png",
+        "largura": 800,
+        "altura": 600,
+        "sha256": "8d2cd530a296d768682090bce979a6b2c1fc604a7e4a92171689cf4b47b1da23",
+        "fornecedor": "pixabay",
+        "foto_id": 7188564,
+        "pagina_origem": "https://pixabay.com/photos/coffee-winter-cafe-caffeine-cup-7188564/",
+        "autor": "bohacekmarek",
+        "autor_id": 1523731,
+        "licenca_url": "https://pixabay.com/service/license-summary/",
+        "origem_arquivo": "https://pixabay.com/get/gd944d47f502a7653408746a88e0037d9e1f17cba01c1861aac513e82c242c048a4002b4d5a3123897c31537d48b6d5249ddd479bba1f3844cfdd916fb2c3a91a_1280.jpg",
+        "obtida_em": "2026-11-11T06:10:07.233Z"
+      },
+      "urlPublica": "https://mvoswngmnsfxcecucrys.supabase.co/storage/v1/object/public/equipamentos-pratica/pratica-2026/TI-0001/8d2cd530a296d768682090bce979a6b2c1fc604a7e4a92171689cf4b47b1da23.png",
+      "arquivoLocal": "fotos/TI-0001.png"
+    },
+    {
+      "patrimonio": "TI-0002",
+      "nome": "Notebook 15 polegadas",
+      "categoria": "Notebook",
+      "situacao": "disponivel",
+      "imagem": {
+        "bucket": "equipamentos-pratica",
+        "caminho": "pratica-2026/TI-0002/42c918f73f825c5de8147195aabdadaddd2bb541ec563daa8e86d02f85e33dd0.png",
+        "largura": 800,
+        "altura": 600,
+        "sha256": "42c918f73f825c5de8147195aabdadaddd2bb541ec563daa8e86d02f85e33dd0",
+        "fornecedor": "pixabay",
+        "foto_id": 791032,
+        "pagina_origem": "https://pixabay.com/photos/technology-laptop-computer-netbook-791032/",
+        "autor": "kaboompics",
+        "autor_id": 1013994,
+        "licenca_url": "https://pixabay.com/service/license-summary/",
+        "origem_arquivo": "https://pixabay.com/get/g8e5ce32d4cce12358b153b6aea200c990ddc71b5d2fddcea0abf567b7d4c18149fcec4d409a14b5646f8a93d4cb07a4bd5d287cecd2d58b342d46700676cb5e8_1280.jpg",
+        "obtida_em": "2026-11-11T06:10:07.354Z"
+      },
+      "urlPublica": "https://mvoswngmnsfxcecucrys.supabase.co/storage/v1/object/public/equipamentos-pratica/pratica-2026/TI-0002/42c918f73f825c5de8147195aabdadaddd2bb541ec563daa8e86d02f85e33dd0.png",
+      "arquivoLocal": "fotos/TI-0002.png"
+    },
+    {
+      "patrimonio": "TI-0003",
+      "nome": "Notebook 13 polegadas",
+      "categoria": "Notebook",
+      "situacao": "disponivel",
+      "imagem": {
+        "bucket": "equipamentos-pratica",
+        "caminho": "pratica-2026/TI-0003/a6535d75c523dd47ae99a34cbd243aa6b9fb94f4a6546a6e8e9f94df2a758959.png",
+        "largura": 800,
+        "altura": 600,
+        "sha256": "a6535d75c523dd47ae99a34cbd243aa6b9fb94f4a6546a6e8e9f94df2a758959",
+        "fornecedor": "pixabay",
+        "foto_id": 886462,
+        "pagina_origem": "https://pixabay.com/photos/keyboard-computer-keys-white-886462/",
+        "autor": "Simon",
+        "autor_id": 3,
+        "licenca_url": "https://pixabay.com/service/license-summary/",
+        "origem_arquivo": "https://pixabay.com/get/g1f50ee8d0af3b4f8eec103ce40d9295ebbdb1597e2fa33b634e3b9609884f97535f8d8a2088f630e3a45852f6ba4eef8500b954ba040aab5728b022a6f402b40_1280.jpg",
+        "obtida_em": "2026-11-11T06:10:07.666Z"
+      },
+      "urlPublica": "https://mvoswngmnsfxcecucrys.supabase.co/storage/v1/object/public/equipamentos-pratica/pratica-2026/TI-0003/a6535d75c523dd47ae99a34cbd243aa6b9fb94f4a6546a6e8e9f94df2a758959.png",
+      "arquivoLocal": "fotos/TI-0003.png"
+    },
+    {
+      "patrimonio": "TI-0004",
+      "nome": "Notebook 15 polegadas",
+      "categoria": "Notebook",
+      "situacao": "manutencao",
+      "imagem": {
+        "bucket": "equipamentos-pratica",
+        "caminho": "pratica-2026/TI-0004/72a80625f07b8c57b04148196d6a3854d97e57abc76aadf18b616947d4848dda.png",
+        "largura": 800,
+        "altura": 600,
+        "sha256": "72a80625f07b8c57b04148196d6a3854d97e57abc76aadf18b616947d4848dda",
+        "fornecedor": "pixabay",
+        "foto_id": 594090,
+        "pagina_origem": "https://pixabay.com/photos/startup-meeting-brainstorming-594090/",
+        "autor": "StartupStockPhotos",
+        "autor_id": 690514,
+        "licenca_url": "https://pixabay.com/service/license-summary/",
+        "origem_arquivo": "https://pixabay.com/get/g77a7dc49d0024b2989c11ae52c7037456bbb9797f341d57683ad89e3b42392afb5dfdffad325ba59b975e40e9b378433ac2cf77908148117b90615e47f248069_1280.jpg",
+        "obtida_em": "2026-11-11T06:10:08.414Z"
+      },
+      "urlPublica": "https://mvoswngmnsfxcecucrys.supabase.co/storage/v1/object/public/equipamentos-pratica/pratica-2026/TI-0004/72a80625f07b8c57b04148196d6a3854d97e57abc76aadf18b616947d4848dda.png",
+      "arquivoLocal": "fotos/TI-0004.png"
+    },
+    {
+      "patrimonio": "TI-0005",
+      "nome": "Monitor 24 polegadas",
+      "categoria": "Monitor",
+      "situacao": "disponivel",
+      "imagem": {
+        "bucket": "equipamentos-pratica",
+        "caminho": "pratica-2026/TI-0005/fa17572be650ed9cb141c57b85be8402a1a2885b90496e94f09c5e9966b9acea.png",
+        "largura": 800,
+        "altura": 600,
+        "sha256": "fa17572be650ed9cb141c57b85be8402a1a2885b90496e94f09c5e9966b9acea",
+        "fornecedor": "pixabay",
+        "foto_id": 4532323,
+        "pagina_origem": "https://pixabay.com/photos/workplace-business-office-computer-4532323/",
+        "autor": "MaxxGirr",
+        "autor_id": 3565425,
+        "licenca_url": "https://pixabay.com/service/license-summary/",
+        "origem_arquivo": "https://pixabay.com/get/g81485dcdd38a60fbc8103e5b14dce72e688e21523a09c4c8ac66795c55509cb3e610adcb106df36fb28a7ea00d3eb18c35b11f9172a461cdbefc240b6025a67d_1280.jpg",
+        "obtida_em": "2026-11-11T06:10:08.853Z"
+      },
+      "urlPublica": "https://mvoswngmnsfxcecucrys.supabase.co/storage/v1/object/public/equipamentos-pratica/pratica-2026/TI-0005/fa17572be650ed9cb141c57b85be8402a1a2885b90496e94f09c5e9966b9acea.png",
+      "arquivoLocal": "fotos/TI-0005.png"
+    },
+    {
+      "patrimonio": "TI-0006",
+      "nome": "Monitor 27 polegadas",
+      "categoria": "Monitor",
+      "situacao": "disponivel",
+      "imagem": {
+        "bucket": "equipamentos-pratica",
+        "caminho": "pratica-2026/TI-0006/8e748eea82257a5e37535abcbbb2e492c6942847702e68b131936468b0e4a93e.png",
+        "largura": 800,
+        "altura": 600,
+        "sha256": "8e748eea82257a5e37535abcbbb2e492c6942847702e68b131936468b0e4a93e",
+        "fornecedor": "pixabay",
+        "foto_id": 1868496,
+        "pagina_origem": "https://pixabay.com/photos/apple-computer-desk-workspace-1868496/",
+        "autor": "Pexels",
+        "autor_id": 2286921,
+        "licenca_url": "https://pixabay.com/service/license-summary/",
+        "origem_arquivo": "https://pixabay.com/get/g34a0e663b4e554c9ceedd87f3b445efc951f41f760fc54c1c33146cd8a843bde8b572b746ebe61e39ee259f5efbfd92dcf6990332d4ae134d985330330fc83db_1280.jpg",
+        "obtida_em": "2026-11-11T06:10:09.218Z"
+      },
+      "urlPublica": "https://mvoswngmnsfxcecucrys.supabase.co/storage/v1/object/public/equipamentos-pratica/pratica-2026/TI-0006/8e748eea82257a5e37535abcbbb2e492c6942847702e68b131936468b0e4a93e.png",
+      "arquivoLocal": "fotos/TI-0006.png"
+    },
+    {
+      "patrimonio": "TI-0007",
+      "nome": "Monitor 22 polegadas",
+      "categoria": "Monitor",
+      "situacao": "manutencao",
+      "imagem": {
+        "bucket": "equipamentos-pratica",
+        "caminho": "pratica-2026/TI-0007/89ec6e037dc76823a8ddb3abaaa935dc5b1700d901279718fbad8856398fb9dd.png",
+        "largura": 800,
+        "altura": 600,
+        "sha256": "89ec6e037dc76823a8ddb3abaaa935dc5b1700d901279718fbad8856398fb9dd",
+        "fornecedor": "pixabay",
+        "foto_id": 1867762,
+        "pagina_origem": "https://pixabay.com/photos/apple-macbook-ipad-laptop-1867762/",
+        "autor": "Pexels",
+        "autor_id": 2286921,
+        "licenca_url": "https://pixabay.com/service/license-summary/",
+        "origem_arquivo": "https://pixabay.com/get/g1d08abf471b19cb141617fdf13eb040c6e0e4b6cccb734d0c4280b134aa1179089b970c1067b99aef44e66953ff6df84acea7abfc8031dd2998e805eac72ab2f_1280.jpg",
+        "obtida_em": "2026-11-11T06:10:09.569Z"
+      },
+      "urlPublica": "https://mvoswngmnsfxcecucrys.supabase.co/storage/v1/object/public/equipamentos-pratica/pratica-2026/TI-0007/89ec6e037dc76823a8ddb3abaaa935dc5b1700d901279718fbad8856398fb9dd.png",
+      "arquivoLocal": "fotos/TI-0007.png"
+    },
+    {
+      "patrimonio": "TI-0008",
+      "nome": "Cabo HDMI 2 m",
+      "categoria": "Cabo",
+      "situacao": "disponivel",
+      "imagem": {
+        "bucket": "equipamentos-pratica",
+        "caminho": "pratica-2026/TI-0008/073d7dfd76072962b7ea402f9c40dcb15e3241a735bc7192bd5da1b55385be54.png",
+        "largura": 800,
+        "altura": 600,
+        "sha256": "073d7dfd76072962b7ea402f9c40dcb15e3241a735bc7192bd5da1b55385be54",
+        "fornecedor": "pixabay",
+        "foto_id": 643728,
+        "pagina_origem": "https://pixabay.com/photos/hdmi-cable-connection-643728/",
+        "autor": "PIX1861",
+        "autor_id": 468748,
+        "licenca_url": "https://pixabay.com/service/license-summary/",
+        "origem_arquivo": "https://pixabay.com/get/ge38b0e946a294725a22f83578363fca2fcabe096c1b125fef4eb389597a342038f7363cdc5bd3ecf347c2c4a105ec45d82cb7d4b30bc96b8e06c0f2b55a249f0_1280.jpg",
+        "obtida_em": "2026-11-11T06:10:09.682Z"
+      },
+      "urlPublica": "https://mvoswngmnsfxcecucrys.supabase.co/storage/v1/object/public/equipamentos-pratica/pratica-2026/TI-0008/073d7dfd76072962b7ea402f9c40dcb15e3241a735bc7192bd5da1b55385be54.png",
+      "arquivoLocal": "fotos/TI-0008.png"
+    },
+    {
+      "patrimonio": "TI-0009",
+      "nome": "Cabo USB-C 1 m",
+      "categoria": "Cabo",
+      "situacao": "disponivel",
+      "imagem": {
+        "bucket": "equipamentos-pratica",
+        "caminho": "pratica-2026/TI-0009/32349d6e655d7f00eeb9c90c392e7149c0a7ea7cbc4a78ef2adb7f2db15a1b48.png",
+        "largura": 800,
+        "altura": 600,
+        "sha256": "32349d6e655d7f00eeb9c90c392e7149c0a7ea7cbc4a78ef2adb7f2db15a1b48",
+        "fornecedor": "pixabay",
+        "foto_id": 7066127,
+        "pagina_origem": "https://pixabay.com/photos/cable-charging-cable-usb-7066127/",
+        "autor": "Alexandra_Koch",
+        "autor_id": 621802,
+        "licenca_url": "https://pixabay.com/service/license-summary/",
+        "origem_arquivo": "https://pixabay.com/get/gb3d71cc78d7c7d07c504bbfa81ad0ac92d765135e2eb6072b4602df278b5e0a1e780f608e2501f9828d878fda40072a7259c453b7cf3d4684516f59542134609_1280.jpg",
+        "obtida_em": "2026-11-11T06:10:10.017Z"
+      },
+      "urlPublica": "https://mvoswngmnsfxcecucrys.supabase.co/storage/v1/object/public/equipamentos-pratica/pratica-2026/TI-0009/32349d6e655d7f00eeb9c90c392e7149c0a7ea7cbc4a78ef2adb7f2db15a1b48.png",
+      "arquivoLocal": "fotos/TI-0009.png"
+    },
+    {
+      "patrimonio": "TI-0010",
+      "nome": "Cabo de rede 3 m",
+      "categoria": "Cabo",
+      "situacao": "manutencao",
+      "imagem": {
+        "bucket": "equipamentos-pratica",
+        "caminho": "pratica-2026/TI-0010/b2c439e3d1dd3a6f48347ac46e33363da77b0baa0eb5da5abfc7f757ccac0d6f.png",
+        "largura": 800,
+        "altura": 600,
+        "sha256": "b2c439e3d1dd3a6f48347ac46e33363da77b0baa0eb5da5abfc7f757ccac0d6f",
+        "fornecedor": "pixabay",
+        "foto_id": 494649,
+        "pagina_origem": "https://pixabay.com/photos/network-cable-cable-patch-494649/",
+        "autor": "blickpixel",
+        "autor_id": 52945,
+        "licenca_url": "https://pixabay.com/service/license-summary/",
+        "origem_arquivo": "https://pixabay.com/get/gd6e923d7cf37131f8100bb50a0cb0b693e30c881f88850fb881740a92fa0c977c6a9941eee20a66696dd7e35f509c6c97ce3c979a898677e7a30761eaa6f7d8d_1280.jpg",
+        "obtida_em": "2026-11-11T06:10:10.104Z"
+      },
+      "urlPublica": "https://mvoswngmnsfxcecucrys.supabase.co/storage/v1/object/public/equipamentos-pratica/pratica-2026/TI-0010/b2c439e3d1dd3a6f48347ac46e33363da77b0baa0eb5da5abfc7f757ccac0d6f.png",
+      "arquivoLocal": "fotos/TI-0010.png"
+    },
+    {
+      "patrimonio": "TI-0011",
+      "nome": "Webcam Full HD",
+      "categoria": "Câmera",
+      "situacao": "disponivel",
+      "imagem": {
+        "bucket": "equipamentos-pratica",
+        "caminho": "pratica-2026/TI-0011/d9a83b9d78ea8762c6796bfda59e57df95ab356a904a22735a4fa7b7f27f7181.png",
+        "largura": 800,
+        "altura": 600,
+        "sha256": "d9a83b9d78ea8762c6796bfda59e57df95ab356a904a22735a4fa7b7f27f7181",
+        "fornecedor": "pixabay",
+        "foto_id": 1155173,
+        "pagina_origem": "https://pixabay.com/photos/portable-computer-computer-pra%C3%A7a-1155173/",
+        "autor": "sarinharas",
+        "autor_id": 1932549,
+        "licenca_url": "https://pixabay.com/service/license-summary/",
+        "origem_arquivo": "https://pixabay.com/get/gdea1556d68f261eb7702597a279a36da9715b57f5ed15f44a88c64aeed27f50a2a56806a5e245169c1f4ff63b9532bcc22ec15b10c119e2b24780e7e9a5c98ad_1280.png",
+        "obtida_em": "2026-11-11T06:10:10.438Z"
+      },
+      "urlPublica": "https://mvoswngmnsfxcecucrys.supabase.co/storage/v1/object/public/equipamentos-pratica/pratica-2026/TI-0011/d9a83b9d78ea8762c6796bfda59e57df95ab356a904a22735a4fa7b7f27f7181.png",
+      "arquivoLocal": "fotos/TI-0011.png"
+    },
+    {
+      "patrimonio": "TI-0012",
+      "nome": "Câmera compacta",
+      "categoria": "Câmera",
+      "situacao": "disponivel",
+      "imagem": {
+        "bucket": "equipamentos-pratica",
+        "caminho": "pratica-2026/TI-0012/e478500040d5ef972e6a7ae96d4cadcd5f81b78638da80a394000429a8b07073.png",
+        "largura": 800,
+        "altura": 600,
+        "sha256": "e478500040d5ef972e6a7ae96d4cadcd5f81b78638da80a394000429a8b07073",
+        "fornecedor": "pixabay",
+        "foto_id": 2364849,
+        "pagina_origem": "https://pixabay.com/photos/child-camera-photographer-2364849/",
+        "autor": "Mr_Worker",
+        "autor_id": 4277403,
+        "licenca_url": "https://pixabay.com/service/license-summary/",
+        "origem_arquivo": "https://pixabay.com/get/gcdedcff477ad8d10270c78c3063efa6d082b6fa3549c4561c8625333f42226d5026e27a1577c4a9c5ce300bea20e7db4db31e06a2f765bdaca4ea0a33a4453dd_1280.jpg",
+        "obtida_em": "2026-11-11T06:10:10.877Z"
+      },
+      "urlPublica": "https://mvoswngmnsfxcecucrys.supabase.co/storage/v1/object/public/equipamentos-pratica/pratica-2026/TI-0012/e478500040d5ef972e6a7ae96d4cadcd5f81b78638da80a394000429a8b07073.png",
+      "arquivoLocal": "fotos/TI-0012.png"
+    }
+  ]
+}

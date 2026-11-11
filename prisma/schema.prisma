@@ -25,7 +25,27 @@ model Equipamento {
   observacoes String?
   criado_em DateTime @default(now()) @db.Timestamptz
   emprestimos Emprestimo[]
+  imagem EquipamentoImagem?
   @@map("equipamentos")
+}
+
+model EquipamentoImagem {
+  equipamento_id String @id @db.Uuid
+  equipamento Equipamento @relation(fields: [equipamento_id], references: [id], onDelete: NoAction, onUpdate: NoAction)
+  bucket String
+  caminho String @unique
+  largura Int
+  altura Int
+  sha256 String @unique
+  fornecedor String
+  foto_id BigInt @unique
+  pagina_origem String
+  autor String
+  autor_id BigInt
+  licenca_url String
+  origem_arquivo String
+  obtida_em DateTime @db.Timestamptz
+  @@map("equipamentos_imagens")
 }
 
 model Emprestimo {

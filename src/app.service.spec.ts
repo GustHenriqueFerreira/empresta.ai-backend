@@ -19,12 +19,12 @@ describe('Autorização e privacidade na API', () => {
     await expect(app.meus(pessoa)).resolves.toEqual([])
     expect(tx.emprestimo.findMany).toHaveBeenCalledWith(expect.objectContaining({ where: { usuario_id: pessoa.id, devolvido_em: null } }))
   })
-  it('CA-02: catálogo não projeta nome ou prazo de terceiro', async () => {
+  it('EM-CA-01 EM-CA-09 CA-02: catálogo da prática não projeta nome ou prazo de terceiro', async () => {
     tx.equipamento.findMany.mockResolvedValue([{ id: 'item', situacao: 'emprestado', emprestimos: [] }])
     const [item] = await app.equipamentos(pessoa)
     expect(item).toMatchObject({ comigo: false, emAtraso: false })
     expect(item.devolverAte).toBeUndefined()
-    expect(tx.equipamento.findMany).toHaveBeenCalledWith(expect.objectContaining({ include: { emprestimos: { where: { usuario_id: pessoa.id, devolvido_em: null } } } }))
+    expect(tx.equipamento.findMany).toHaveBeenCalledWith(expect.objectContaining({ where: { imagem: { isNot: null } }, include: expect.objectContaining({ imagem: true, emprestimos: { where: { usuario_id: pessoa.id, devolvido_em: null } } }) }))
   })
   it('CA-01: perfil ausente exige ação do responsável em vez de usuário fictício', async () => {
     tx.profile.findUnique.mockResolvedValue(null)
